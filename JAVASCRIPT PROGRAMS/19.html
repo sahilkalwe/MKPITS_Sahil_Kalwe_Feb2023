@@ -1,0 +1,38 @@
+<html>
+<h1 align="center">BANK</h1>
+<body>
+    Account Number:<input type="text" id="acno"/><br><br>
+    Initial Balance:<input type="text" id="ib"/><br><br>
+    Amount:<input type="text" id="amt"/><br><br>
+    <input type ="button" value="Deposit" onclick="dep();"/>
+    <br>
+	<br>
+    <input type ="button" value="Withdrawl" onclick="wth();"/>
+    <br>
+	<br>
+    <span id="bal">Balance Is:</span>
+    <br>
+    </body>
+    <script language="javascript">
+        function dep()
+        {
+            var ini,amo,depo;
+
+             ini=parseFloat(document.getElementById("ib").value);
+             amo=parseFloat(document.getElementById("amt").value);
+             depo=ini+amo;
+           
+          document.getElementById("bal").innerHTML="Deposit amount is : " +depo; 
+         }
+         function wth()
+         {
+            var ini,amo,withd;
+
+             ini=parseFloat(document.getElementById("ib").value);
+             amo=parseFloat(document.getElementById("amt").value);
+             withd=ini-amo;
+           
+          document.getElementById("bal").innerHTML="Deposit amount is : " +withd; 
+         }
+        </script>
+        </html>

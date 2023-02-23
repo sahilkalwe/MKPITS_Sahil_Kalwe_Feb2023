@@ -1,0 +1,36 @@
+<html>
+<h1 align="center">Name info</h1>
+<body>
+    First Name:<input type="text" id="fname"/><br><br>
+    Last Name:<input type="text" id="lname"/><br><br>
+    Email:<input type="text" id="eml"/><br><br>
+    Mobile Number:<input type="text" id="mno"/><br><br>
+    <input type ="button" value="Submit" onclick="total();"/>
+    <br>
+    <span id="fname1">FirstName:</span>
+    <br>
+    <span id="lname1">LastName:</span>
+    <br>
+    <span id="eml1">Email:</span>
+    <br>
+    <span id="mno1">MobileNumber:</span>
+    <br>
+    </body>
+    <script language="javascript">
+        function total()
+        {
+            var first,last,email1,mobileno;
+
+             first=(document.getElementById("fname").value);
+             last=(document.getElementById("lname").value);
+             email1=(document.getElementById("eml").value);
+             mobileno=parseInt(document.getElementById("mno").value);
+           
+          document.getElementById("fname1").innerHTML="FirstName : " +first;
+          document.getElementById("lname1").innerHTML="LastName : " +last;
+          document.getElementById("eml1").innerHTML="Email : " +email1;
+          document.getElementById("mno1").innerHTML="MobileNumber : " +mobileno;
+        
+         }
+        </script>
+        </html>

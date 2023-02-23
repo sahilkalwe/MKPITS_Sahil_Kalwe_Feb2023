@@ -1,0 +1,23 @@
+<html>
+<h1 align="center">Marks Of Subject</h1>
+<body>
+    Product Name:<input type="text" id="pro"/><br><br>
+    Rate:<input type="text" id="rte"/><br><br>
+    Quantity:<input type="text" id="qty"/><br><br>
+    <input type ="button" value="OK" onclick="total();"/>
+    <br>
+    <span id="tot">TOTAL AMOUNT:</span>
+    <br>
+    </body>
+    <script language="javascript">
+        function total()
+        {
+            var rate,quantity,result;
+
+             rate=parseFloat(document.getElementById("rte").value);
+             quantity=parseFloat(document.getElementById("qty").value);
+             result=rate*quantity;
+          document.getElementById("tot").innerHTML="Total Amount: " +result;
+         }
+        </script>
+        </html>

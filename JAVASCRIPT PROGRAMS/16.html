@@ -1,0 +1,27 @@
+<html>
+<h1 align="center">Marks Of Subject</h1>
+<body>
+    Enter Marks Of Maths:<input type="text" id="mat"/><br><br>
+    Enter Marks Of Physics:<input type="text" id="phy"/><br><br>
+    Enter Marks Of Chemistry:<input type="text" id="che"/><br><br>
+    <input type ="button" value="Result" onclick="total();"/>
+    <br>
+    <span id="tot">TOTAL:</span>
+    <br>
+    <span id="PER">PERCENTAGE:</span>
+    </body>
+    <script language="javascript">
+        function total()
+        {
+            var MARK1,MARK2,MARK3,result,per;
+
+             MARK1=parseFloat(document.getElementById("mat").value);
+             MARK2=parseFloat(document.getElementById("phy").value);
+             MARK3=parseFloat(document.getElementById("che").value);
+             result=MARK1+MARK2+MARK3;
+            per=result/300*100;
+          document.getElementById("tot").innerHTML="Total: " +result;
+          document.getElementById("PER").innerHTML="PERCENTAGE: " +per;
+         }
+        </script>
+        </html>

@@ -1,0 +1,22 @@
+<html>
+<body>
+    Enter length:<input type="text" id="num1"/><br><br>
+    Enter breadth:<input type="text" id="num2"/><br><br>
+    <input type ="button" value="Area" onclick="area();"/><br>
+    <span id="ara">AREA:</span>
+    </body>
+    <script language="javascript">
+        function area()
+        {
+            var length,breadth,calculateArea;
+
+             length=parseFloat(document.getElementById("num1").value);
+             breadth=parseFloat(document.getElementById("num2").value);
+             calculateArea=length*breadth;
+
+          document.getElementById("ara").innerHTML="area="+calculateArea;
+
+        }
+       
+        </script>
+        </html>
