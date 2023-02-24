@@ -1,0 +1,27 @@
+<html>
+   <body>
+     enter age:<input type ="text"id="num1"/>
+    <br>
+    <br>
+    <input type="button" value="show" onclick="term();"/>
+    <br>
+    <span id="res">RESULT</span>
+    <br>
+    </body>
+  <script>
+    function term()
+    {
+    var n1;
+    n1=parseFloat(document.getElementById("num1").value);
+    if(n1>18)
+    {
+    document.getElementById("res").innerHTML="you are: " +n1+ "you are adult";
+    }
+    else
+    {
+
+    document.getElementById("res").innerHTML="you are: " +n1 + "you are minor";
+    }
+    }
+    </script>
+    </html>

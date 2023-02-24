@@ -1,0 +1,46 @@
+ <html>
+   <body>
+     enter maths marks:<input type ="text"id="mat"/>
+     enter physics marks:<input type ="text"id="phy"/>
+     enter chemistry marks:<input type ="text"id="che"/>
+    <br>
+    <br>
+    <input type="button" value="Result" onclick="term();"/>
+    <br>
+    <span id="s1">Total</span>
+    <br>
+    <br>
+    <span id="s2">Percentage</span>
+    <br>
+    <br>
+    <span id="s3">Grade</span>
+    <br>
+    <br>
+</body>
+  <script>
+    function term()
+    {
+    var m,p,c,total,per;
+    m=parseFloat(document.getElementById("mat").value);
+    p=parseFloat(document.getElementById("phy").value);
+    c=parseFloat(document.getElementById("che").value);
+    total=m+p+c;
+    document.getElementById("s1").innerHTML="total is:  " +total;
+    per=total*0.3;
+   
+    document.getElementById("s2").innerHTML="percentage is:  " +per;
+    if(per>=75)
+    {
+        document.getElementById("s3").innerHTML="Grade Distinction";
+    }
+    else if(per>=60 && per<75)
+    {
+        document.getElementById("s3").innerHTML="Grade first";
+    }
+    else
+    {
+        document.getElementById("s3").innerHTML="Fail";
+    }
+    }
+    </script>
+    </html>

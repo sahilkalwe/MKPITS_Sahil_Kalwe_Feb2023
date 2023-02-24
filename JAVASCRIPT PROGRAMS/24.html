@@ -1,0 +1,27 @@
+<html>
+   <body>
+     enter number:<input type ="text"id="num1"/>
+    <br>
+    <br>
+    <input type="button" value="odd/even" onclick="term();"/>
+    <br>
+    <span id="res">RESULT</span>
+    <br>
+    </body>
+  <script>
+    function term()
+    {
+    var n1;
+    n1=parseFloat(document.getElementById("num1").value);
+    if(n1%2==0)
+    {
+    document.getElementById("res").innerHTML="Number: " +n1+ "is even number";
+    }
+    else
+    {
+
+    document.getElementById("res").innerHTML="Number: " +n1 + "is odd number";
+    }
+    }
+    </script>
+    </html>

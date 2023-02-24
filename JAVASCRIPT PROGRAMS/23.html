@@ -1,0 +1,31 @@
+<html>
+   <body>
+     enter num1:<input type ="text"id="num1"/>
+    <br>
+    <br>
+    enter num2:<input type ="text"id="num2"/>
+    <br>
+    <br>
+    <input type="button" value="showgreater" onclick="show();"/>
+    <br>
+    <span id="res">RESULT</span>
+    <br>
+    </body>
+  <script>
+    function show()
+    {
+    var n1,n2;
+    n1=parseFloat(document.getElementById("num1").value);
+    n2=parseFloat(document.getElementById("num2").value);
+    if(n1>n2)
+    {
+    document.getElementById("res").innerHTML="Number1: " +n1+ "is greater";
+    }
+    else
+    {
+
+    document.getElementById("res").innerHTML="Number2: " +n2+ "is greater";
+    }
+    }
+    </script>
+    </html>

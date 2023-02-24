@@ -1,0 +1,30 @@
+<html>
+   <body>
+     enter num1:<input type ="text"id="num1"/>
+     enter num2:<input type ="text"id="num2"/>
+    <br>
+    <br>
+    <input type="button" value="ok" onclick="term();"/>
+    <br>
+    </body>
+  <script>
+    function term()
+    {
+    var n1,n2;
+    n1=parseFloat(document.getElementById("num1").value);
+    n2=parseFloat(document.getElementById("num2").value);
+    if(n1==n2)
+    {
+    alert("both numbers are same");
+    }
+    else if(n1>n2)
+    {
+    alert("num 1 is greater");
+    }
+    else
+    {
+    alert("num2 is greater b ");
+    }
+    }
+    </script>
+    </html>

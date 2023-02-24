@@ -1,0 +1,32 @@
+<html>
+   <body>
+     enter num1:<input type ="text"id="num1"/>
+     enter num2:<input type ="text"id="num2"/>
+     enter num3:<input type ="text"id="num3"/>
+    <br>
+    <br>
+    <input type="button" value="ok" onclick="term();"/>
+    <br>
+    </body>
+  <script>
+    function term()
+    {
+    var n1,n2,n3;
+    n1=parseFloat(document.getElementById("num1").value);
+    n2=parseFloat(document.getElementById("num2").value);
+    n3=parseFloat(document.getElementById("num3").value);
+    if(n1>n2&&n1>n3)
+    {
+    alert("num1 is greater");
+    }
+    else if(n2>n3)
+    {
+    alert("num2 is greater");
+    }
+    else
+    {
+    alert("num3 is greater");
+    }
+    }
+    </script>
+    </html>
