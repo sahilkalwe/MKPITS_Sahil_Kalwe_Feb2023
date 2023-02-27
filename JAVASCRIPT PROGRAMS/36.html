@@ -1,0 +1,38 @@
+<body>
+    enter name: <input type=text name="n1" />
+    enter marks between 0-100: <input type=text name="n2" />
+
+    <br>
+    <br>
+    <input type=button value="submit" onclick="findGrade(document.getElementsByName('n1')[0].value,document.getElementsByName('n2')[0].value);"/>
+</body>
+    <script>
+  function findGrade(name, marks) 
+  {
+
+if(marks >= 90 && marks <= 100){
+alert(`${name} you have received A+ grade`)
+}
+else if(marks >= 80 && marks < 90){
+alert(`${name} you have received A grade`)
+}
+else if(marks >= 70 && marks < 80){
+alert(`${name} you have received B grade`)
+}
+else if(marks >= 60 && marks < 70){
+alert(`${name} you have received C grade`)
+}
+else if(marks >= 50 && marks < 60){
+alert(`${name} you have received D grade`)
+}
+else if(marks >= 40 && marks < 50){
+alert(`${name} you have received E grade`)
+}
+else if(marks >= 0 && marks <40){
+alert(`${name} you have Failed`)
+}
+else{
+alert(`Invalid marks of ${marks}`)
+}
+}
+</script>

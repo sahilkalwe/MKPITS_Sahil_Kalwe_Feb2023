@@ -1,0 +1,40 @@
+<body>
+    enter num1 : <input type=text name="n1" />
+    <br>
+    enter num2 : <input type=text name="n2" />
+    <br>
+    enter operation to be performed: <input type=text name="n3" />
+    <br>
+    <input type=button value="submit" onclick="evalNumbers(document.getElementsByName('n1')[0].value,document.getElementsByName('n2')[0].value,document.getElementsByName('n3')[0].value);"/>
+    </body>
+    <script>
+  function evalNumbers(num1, num2, op)
+   {
+
+if(op == "add")
+{
+alert(`Sum of ${num1} and ${num2} is ${num1+num2}`)
+}
+else if(op == "subtract")
+{
+alert(`Difference of ${num1} and ${num2} is ${num1-num2}`)
+}
+else if(op == "multiply")
+{
+alert(`Product of ${num1} and ${num2} is ${num1*num2}`)
+}
+else if(op == "divide")
+{
+alert(`Division of ${num1} and ${num2} is ${num1/num2}`)
+}
+else if(op == "modulus")
+{
+alert(`Modulus of ${num1} and ${num2} is ${num1%num2}`)
+}
+else
+{
+alert(`${op} is an invalid operation`)
+}
+}
+</script>
+
