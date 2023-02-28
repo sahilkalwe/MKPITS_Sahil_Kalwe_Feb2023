@@ -1,0 +1,146 @@
+<style>
+    td {
+        text-align:center;
+    }
+</style>
+<form name="f1" style="width:300;height:350;border:6px solid black;margin-top:150px;margin-left:500px;">
+    <table width=100% align=center>
+        <tr>
+            <td><input type=text name="t1" style="width:100%;padding:20px;" /></td>
+        </tr>
+    </table>
+    <table width="100%" align="center">
+        <tr>
+            <td><input type=button name="b1" value="1" style="padding:20px;border:4px solid red" onclick="calci1();" />
+            </td>
+            <td><input type=button name="b2" value="2" style="padding:20px;border:4px solid red" onclick="calci2();" />
+            </td>
+            <td><input type=button name="b3" value="3" style="padding:20px;border:4px solid red" onclick="calci3();" /></td>
+             <td><input type=button name="b4" value="4" style="padding:20px;border:4px solid red" onclick="calci4();" /></td>    
+                </tr>
+                <tr>    
+                    <td><input type=button name="b5" value="5" style="padding:20px;border:4px solid red" onclick="calci5();" /></td>
+                        <td><input type=button name="b6" value="6" style="padding:20px;border:4px solid red" onclick="calci6();" /></td>
+                            <td><input type=button name="b7" value="7" style="padding:20px;border:4px solid red" onclick="calci7();" /></td>
+                                <td><input type=button name="b8" value="8" style="padding:20px;border:4px solid red" onclick="calci8();" /></td>
+                                    
+                            </tr>
+                            <tr>  
+                                <td><input type=button name="b9" value="9" style="padding:20px;border:4px solid red" onclick="calci9();" /></td>
+                                <td><input type=button name="b10" value="0" style="padding:19px;border:4px solid red" onclick="calci0();" /> </td>
+                                <td><input type=button name="b11" value="+" style="padding:20px;border:4px solid green" onclick="calciadd();" /> </td>
+                                 <td><input type=button name="b12" value="-" style="padding:20px;border:4px solid green" onclick="calciminus();" /></td>
+            
+        </tr>
+        <tr>
+            <td><input type=button name="b13" value="*" style="padding:20px;border:4px solid green" onclick="calcimultiply();" /></td>
+            <td><input type=button name="b14" value="/" style="padding:20px;border:4px solid green" onclick="calcidivision();" /></td>
+            <td><input type=button name="b15" value="C" style="padding:20px;border:4px solid BLUE" onclick="calciclear();" /></td>
+            <td><input type=button name="b16" value="=" style="padding:20px;border:4px solid blue" onclick="calciresult();" /></td>
+            </tr>
+            </table>
+            <script>
+                var prevnum=0;
+                var operator;
+                function calci1()
+                {
+                    document.f1.t1.value="1";
+                }
+                function calci2()
+                {
+                    document.f1.t1.value="2";
+                }
+                function calci3()
+                {
+                    document.f1.t1.value="3";
+                }
+                function calci4()
+                {
+                    document.f1.t1.value="4";
+                }
+                function calci5()
+                {
+                    document.f1.t1.value="5";
+                }
+                function calci6()
+                {
+                    document.f1.t1.value="6";
+                }
+                function calci7()
+                {
+                    document.f1.t1.value="7";
+                }
+                function calci8()
+                {
+                    document.f1.t1.value="8";
+                }
+                function calci9()
+                {
+                    document.f1.t1.value="9";
+                }
+                function calci0()
+                {
+                    document.f1.t1.value="0";
+                }
+                function calciadd()
+                {
+                    prevnum=document.f1.t1.value;
+                    document.f1.t1.value="+";
+                    operator="+";
+                }
+
+                    function calciminus()
+                    {
+                        prevnum=document.f1.t1.value;
+                        document.f1.t1.value="-";
+                        operator="-";
+                    }
+                    function calcimultiply()
+                {
+                    prevnum=document.f1.t1.value;
+                    document.f1.t1.value="*";
+                    operator="*";
+                }
+                function calcidivision()
+                {
+                    prevnum=document.f1.t1.value;
+                    document.f1.t1.value="/";
+                    operator="/";
+                }
+                function calciclear()
+                {
+                    prevnum=document.f1.t1.value;
+                    document.f1.t1.value=" ";
+                    operator="C";
+                }
+
+                    function calciresult()
+                    {
+                        var result=0;
+                        if (operator=='+')
+                        {
+                            result=parseInt(prevnum)+parseInt(document.f1.t1.value);
+                        }
+                        else if(operator=='-')
+                        {
+                            result=parseInt(prevnum)-parseInt(document.f1.t1.value);
+                        }
+                        else if(operator=='*')
+                        {
+                            result=parseInt(prevnum)*parseInt(document.f1.t1.value);
+                        }
+                        else if(operator=='/')
+                        {
+                            result=parseInt(prevnum)/parseInt(document.f1.t1.value);
+                        }
+                        else if(operator=='C')
+                        {
+                            document.f1.t1.value=" ";
+                        }
+
+                        document.f1.t1.value=result;
+                    }
+                    
+
+                    </script>
+                
