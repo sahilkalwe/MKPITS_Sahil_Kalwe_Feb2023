@@ -1,0 +1,35 @@
+<h1>check entered character is vowel or not</h1>
+<body>
+    Enter chracter:<input type="text" id="n1">
+    <br>
+    <br>
+    <input type="button" value="Result" onclick="calculate();" />
+    <br>
+</body>
+<script>
+    function calculate() {
+        var num1, result;
+        num1 = document.getElementById("n1").value;
+        switch (num1) {
+            case "a":
+                result = "Vowel";
+                break;
+            case "e":
+                result = "Vowel";
+                break;
+            case "i":
+                result = "Vowel";
+                break;
+            case "o":
+                result = "Vowel";
+                break;
+            case "u":
+                result = "Vowel";
+                break;
+            default:
+                result = "not an vowel";
+                break;
+        }
+        alert("It Is  :" + result);
+    }
+</script>

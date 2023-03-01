@@ -1,0 +1,25 @@
+<h1>print table of that  number</h1>
+<body>
+    enter number<input type="text" id="n1"/>
+    <br>
+    <br>
+    <input type="button" value="Print Table" onclick="printtable();"/>
+</body>
+<script>
+    function printtable()
+    {
+var num;
+var result=1;
+var counter=1;
+num=document.getElementById("n1").value;
+do{
+result=num*counter;
+document.write(num+"*"+counter+"="+result);
+document.write("<br>");
+counter=counter+1;
+
+
+}while(counter<=10);
+
+    }
+    </script>

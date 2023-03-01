@@ -1,0 +1,22 @@
+<h1>Factorial of number</h1>
+<body>
+    Enter Number=<input type="text" id="n1">
+    <br>
+    <br>
+    <input type="button" value="Factorial" onclick="fact();"/>
+    </body>
+    <script>
+        function fact()
+        {
+var num;
+var fact=1;
+num=parseInt(document.getElementById("n1").value);
+do
+{
+fact=fact*num;
+num=num-1;
+}while (num>0)
+document.write("Factorial of no is "+fact);
+
+        }
+</script>
