@@ -46,6 +46,31 @@
                 function calci1()
                 {
                     document.f1.t1.value="1";
+                    if(document.getElementById("t1").value=='+')
+
+                    {
+
+                        operator='+';
+                        (document.getElementById("t1").value="1");
+                    }
+                    else if
+                    {
+                        (document.getElementById("t1").value=='-')
+                        {
+                                opeartor="-";
+                                document.getElementById("t1").value="1";
+                        }
+                    else
+                    {
+                        document.getElementById("t1").value="1";
+
+                    }
+                }
+
+
+
+
+
                 }
                 function calci2()
                 {
@@ -121,6 +146,12 @@
                         if (operator=='+')
                         {
                             result=parseInt(prevnum)+parseInt(document.f1.t1.value);
+                            document.getElementById("t1").value=result;
+                        
+
+
+
+
                         }
                         else if(operator=='-')
                         {

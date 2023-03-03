@@ -1,0 +1,35 @@
+<h1>A PROGRAM TO CHECK NUMBER IS PRIME OR NOT MINE</h1>
+<script>
+const num = parseInt(prompt("Enter any number: "));
+let Prime = true;
+if (num === 1)
+ {
+    alert("1 is not prime no");
+}
+
+else if (num > 1) 
+{
+    for (i = 2; i < num; i++) 
+    {
+        if (num % i == 0) {
+            Prime = false;
+            break;
+        }
+    }
+
+    if (Prime) 
+    {
+        alert(`${num} is a prime number`);
+    } 
+    else 
+    {
+        alert(`${num} is a not prime number`);
+    }
+}
+
+else 
+{
+    alert("The number is not a prime number.");
+    
+}
+</script>
