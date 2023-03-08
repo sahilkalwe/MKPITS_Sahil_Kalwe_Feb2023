@@ -1,0 +1,30 @@
+<body>
+Enter subject 1 marks:<input type="text" id="s1">
+<br>
+Enter subject 2 marks:<input type="text" id="s2">
+<br>
+Enter subject 3 marks:<input type="text" id="s3">
+<br>
+<br>
+<input type="Button" value="Result" onclick= "Calculate();">
+<br>
+<br>
+<span id="res1">Total:</span>
+<br>
+<br>
+<span id="res2">Percentage:</span>
+</body>
+<script>
+    function Calculate()
+    {
+    var marks=new Array();
+    marks[0]=parseInt(document.getElementById("s1").value);
+    marks[1]=parseInt(document.getElementById("s2").value);
+    marks[2]=parseInt(document.getElementById("s3").
+    value);
+    var total=marks[0]+marks[1]+marks[2];
+    var per=parseFloat(total*0.3);
+    document.getElementById("res1").innerHTML=total;
+    document.getElementById("res2").innerHTML=per;
+    }
+    </script>

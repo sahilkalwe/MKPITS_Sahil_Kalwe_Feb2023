@@ -1,26 +1,21 @@
 <h1>Display first 10 prime numbers</h1>
 <script>
-var num=0;
-var counter;
-var flag=0;
-while(counter<num)
+for(num=1;num<=10;num++)
 {
-    if(num%counter==0)
+isprime=true;
+for(counter=2;counter<num;counter++)
+{
+ if(num%counter==0)
     {
-        flag=1;
+        isprime=false;
         break;
     }
-
-        document.write(num +"<br>");
    
 }
-counter=counter+1;
-if(flag==0)
+if(isprime && num>1)
 {
-alert("prime number");
+
+document.write(num+"<br>");
 }
-else
-{
-    alert("not a prime number");
 }
 </script>
