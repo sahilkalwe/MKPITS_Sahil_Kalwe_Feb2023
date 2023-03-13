@@ -1,0 +1,26 @@
+<form method=post  action="login.aspx" onsubmit="return check()">
+<h1>check password is of 6 character by using post method</h1>
+    Enter Username:<input type="Text" id="un">
+    Enter Password:<input type="text" id="up">
+<input type="submit" value="Submit" onclick="check();">
+</form>
+<script>
+    function check()
+    {
+        var username=document.getElementById("un").value;
+        var pwd=document.getElementById("up").value;
+        if(username=="" && pwd=="")
+        {
+            alert("please enter username or password");
+            return false;
+        }
+        else if(pwd.length<6)
+        {
+            alert("password must be atleast 6 characters");
+            return false;
+        }
+        
+
+
+    }
+    </script>
