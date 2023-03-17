@@ -1,0 +1,15 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\bin\Debug\net6.0\2 accept a name from user.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\bin\Debug\net6.0\2 accept a name from user.deps.json
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\bin\Debug\net6.0\2 accept a name from user.runtimeconfig.json
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\bin\Debug\net6.0\2 accept a name from user.dll
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\bin\Debug\net6.0\2 accept a name from user.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.AssemblyInfoInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.AssemblyInfo.cs
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.dll
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\refint\2 accept a name from user.dll
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\2 accept a name from user.genruntimeconfig.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\2 accept a name from user\obj\Debug\net6.0\ref\2 accept a name from user.dll
