@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\obj\Debug\31 wap to accept number and print table of it.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\obj\Debug\31 wap to accept number and print table of it.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\obj\Debug\31 wap to accept number and print table of it.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\bin\Debug\31 wap to accept number and print table of it.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\bin\Debug\31 wap to accept number and print table of it.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\bin\Debug\31 wap to accept number and print table of it.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\obj\Debug\31 wap to accept number and print table of it.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\31 wap to accept number and print table of it\obj\Debug\31 wap to accept number and print table of it.pdb

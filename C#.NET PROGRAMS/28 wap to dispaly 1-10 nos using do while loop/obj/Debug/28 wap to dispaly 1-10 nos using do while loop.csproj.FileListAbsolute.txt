@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\bin\Debug\28 wap to dispaly 1-10 nos using do while loop.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\bin\Debug\28 wap to dispaly 1-10 nos using do while loop.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\bin\Debug\28 wap to dispaly 1-10 nos using do while loop.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\obj\Debug\28 wap to dispaly 1-10 nos using do while loop.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\obj\Debug\28 wap to dispaly 1-10 nos using do while loop.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\obj\Debug\28 wap to dispaly 1-10 nos using do while loop.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\obj\Debug\28 wap to dispaly 1-10 nos using do while loop.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\28 wap to dispaly 1-10 nos using do while loop\obj\Debug\28 wap to dispaly 1-10 nos using do while loop.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\obj\Debug\14 accept two number and perform operator operation and display.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\obj\Debug\14 accept two number and perform operator operation and display.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\obj\Debug\14 accept two number and perform operator operation and display.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\bin\Debug\14 accept two number and perform operator operation and display.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\bin\Debug\14 accept two number and perform operator operation and display.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\bin\Debug\14 accept two number and perform operator operation and display.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\obj\Debug\14 accept two number and perform operator operation and display.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\14 accept two number and perform operator operation and display\obj\Debug\14 accept two number and perform operator operation and display.pdb

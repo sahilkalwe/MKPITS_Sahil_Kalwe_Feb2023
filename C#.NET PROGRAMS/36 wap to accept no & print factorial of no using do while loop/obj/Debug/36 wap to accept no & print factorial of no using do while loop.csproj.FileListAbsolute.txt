@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\obj\Debug\36 wap to accept no & print factorial of no using do while loop.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\obj\Debug\36 wap to accept no & print factorial of no using do while loop.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\obj\Debug\36 wap to accept no & print factorial of no using do while loop.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\bin\Debug\36 wap to accept no & print factorial of no using do while loop.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\bin\Debug\36 wap to accept no & print factorial of no using do while loop.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\bin\Debug\36 wap to accept no & print factorial of no using do while loop.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\obj\Debug\36 wap to accept no & print factorial of no using do while loop.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\36 wap to accept no & print factorial of no using do while loop\obj\Debug\36 wap to accept no & print factorial of no using do while loop.pdb

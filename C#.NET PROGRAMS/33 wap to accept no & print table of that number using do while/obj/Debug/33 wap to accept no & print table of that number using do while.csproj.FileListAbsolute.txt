@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\obj\Debug\33 wap to accept no & print table of that number using do while.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\obj\Debug\33 wap to accept no & print table of that number using do while.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\obj\Debug\33 wap to accept no & print table of that number using do while.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\bin\Debug\33 wap to accept no & print table of that number using do while.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\bin\Debug\33 wap to accept no & print table of that number using do while.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\bin\Debug\33 wap to accept no & print table of that number using do while.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\obj\Debug\33 wap to accept no & print table of that number using do while.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\33 wap to accept no & print table of that number using do while\obj\Debug\33 wap to accept no & print table of that number using do while.pdb

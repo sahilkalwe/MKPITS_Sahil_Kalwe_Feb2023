@@ -1,0 +1,13 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\bin\Debug\accept 3 subject marks and print total percentage and grades.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\bin\Debug\accept 3 subject marks and print total percentage and grades.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\bin\Debug\accept 3 subject marks and print total percentage and grades.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\13 accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\13 accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\13 accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\13 accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\13 accept 3 subject marks and print total percentage and grades\obj\Debug\accept 3 subject marks and print total percentage and grades.pdb

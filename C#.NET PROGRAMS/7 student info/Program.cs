@@ -27,7 +27,8 @@ namespace _7_student_info
             age = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine("Enter your mobile number");
-            mno = Convert.ToDouble(Console.ReadLine());
+            mno = Convert.ToDouble
+                (Console.ReadLine());
 
             Console.WriteLine("Your Roll number is " + rno);
             Console.WriteLine("Your name is " + name);

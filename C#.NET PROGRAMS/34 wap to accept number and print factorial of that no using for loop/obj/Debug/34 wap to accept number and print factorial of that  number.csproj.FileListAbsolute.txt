@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\obj\Debug\34 wap to accept number and print factorial of that  number.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\obj\Debug\34 wap to accept number and print factorial of that  number.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\obj\Debug\34 wap to accept number and print factorial of that  number.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\bin\Debug\34 wap to accept number and print factorial of that  number.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\bin\Debug\34 wap to accept number and print factorial of that  number.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\bin\Debug\34 wap to accept number and print factorial of that  number.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\obj\Debug\34 wap to accept number and print factorial of that  number.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\34 wap to accept number and print factorial of that  number\obj\Debug\34 wap to accept number and print factorial of that  number.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\obj\Debug\32 wap to acccept no and print table of it by using while loop.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\obj\Debug\32 wap to acccept no and print table of it by using while loop.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\obj\Debug\32 wap to acccept no and print table of it by using while loop.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\bin\Debug\32 wap to acccept no and print table of it by using while loop.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\bin\Debug\32 wap to acccept no and print table of it by using while loop.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\bin\Debug\32 wap to acccept no and print table of it by using while loop.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\obj\Debug\32 wap to acccept no and print table of it by using while loop.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\32 wap to acccept no and print table of it by using while loop\obj\Debug\32 wap to acccept no and print table of it by using while loop.pdb
