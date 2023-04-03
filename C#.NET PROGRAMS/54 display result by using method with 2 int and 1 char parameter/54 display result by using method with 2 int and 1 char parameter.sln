@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54 display result by using method with 2 int and 1 char parameter", "54 display result by using method with 2 int and 1 char parameter.csproj", "{D535779D-6C74-4F2D-A7BB-CA47798B8BCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D535779D-6C74-4F2D-A7BB-CA47798B8BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D535779D-6C74-4F2D-A7BB-CA47798B8BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D535779D-6C74-4F2D-A7BB-CA47798B8BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D535779D-6C74-4F2D-A7BB-CA47798B8BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57F6E5E1-9457-4035-AE29-50232D1C192B}
+	EndGlobalSection
+EndGlobal

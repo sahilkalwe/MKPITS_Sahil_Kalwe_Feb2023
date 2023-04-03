@@ -18,7 +18,7 @@
         }
         if (counter == -1)
         {
-            alert('sorry, out of time');
+            alert('Sorry, Out Of Time');
             clearInterval(counter);
         
         }
@@ -592,7 +592,7 @@
              }
              else
              {
-             alert("you loose the game , better luck next time ");
+             alert("You Loose The Game , Better Luck Next Time ");
              counter=-1;
              clearInterval(counter);
              }
@@ -604,10 +604,11 @@
       if(r==25)
       {
       //alert("r="+r);
-      alert("congratulations , you won the game");
+      alert("Congratulations , You Won The Game");
        counter=-1;
              clearInterval(counter);
-             document.getElementById("p1").innerHTML="congratulations you won the game";
+             document.getElementById("p1").innerHTML="Congratulations You Won The Game => Your Score Is 25";
+            
       }
       }
       
@@ -622,7 +623,7 @@
            <center> 
               
               <h3>Time reamains: 
-              <span id="count"><font color=red>00:60 min</font></span>
+              <span id="count"><font color=red>00:60 Sec</font></span>
               </h3>
               <button type="button" class="b" onclick="start();strt();" id="str" >Start</button>
         </center>
@@ -665,5 +666,5 @@
          <td><button type="button" onclick="twentyfive()" id="b25" >-</button></td>
           </tr>
           </table>
-            <p align=center id="p1" >Final result out of 25 : </p>
+           <p align=center id="p1" >Final Result Out Of 25 : </p>
       </body>

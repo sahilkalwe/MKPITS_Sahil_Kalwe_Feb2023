@@ -11,26 +11,30 @@ namespace _43_wap_to_display_prime_no_between_1_to_20_using_for_loop
     internal class Program
     {
         static void Main(string[] args)
-        { 
-            bool isprime;
-            for (int num = 1; num <= 20; num++)
+        {
+            for (int outercounter = 1; outercounter <= 20; outercounter++)
             {
-                 isprime = true;
+                int num = outercounter;
+                int isprime = 0;
+
                 for (int counter = 2; counter < num; counter++)
                 {
                     if (num % counter == 0)
                     {
-                        isprime = false;
+                        isprime = 1;
                         break;
                     }
                 }
-                if(isprime =1 && num > 1)
-                {
-                    Console.WriteLine(num + "<br>");
-                }
-            }
 
-         
+                if (isprime == 0)
+                {
+                    Console.WriteLine(num + " It is a prime number");
+                }
+                
+            }
+            Console.ReadKey();
         }
+       
     }
 }
+

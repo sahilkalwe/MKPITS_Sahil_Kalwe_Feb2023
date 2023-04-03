@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\bin\Debug\61 prime no by boolean.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\bin\Debug\61 prime no by boolean.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\bin\Debug\61 prime no by boolean.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\obj\Debug\61 prime no by boolean.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\obj\Debug\61 prime no by boolean.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\obj\Debug\61 prime no by boolean.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\obj\Debug\61 prime no by boolean.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\61 prime no by boolean\obj\Debug\61 prime no by boolean.pdb
