@@ -1,3 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\54 display result by using method with 2 int and 1 char parameter\obj\Debug\54 display result by using method with 2 int and 1 char parameter.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\54 display result by using method with 2 int and 1 char parameter\obj\Debug\54 display result by using method with 2 int and 1 char parameter.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\54 display result by using method with 2 int and 1 char parameter\obj\Debug\54 display result by using method with 2 int and 1 char parameter.csproj.CoreCompileInputs.cache

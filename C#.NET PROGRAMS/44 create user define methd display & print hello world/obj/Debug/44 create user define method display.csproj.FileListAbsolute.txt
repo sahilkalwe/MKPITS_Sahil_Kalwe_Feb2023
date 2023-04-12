@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\bin\Debug\44 create user define method display.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\bin\Debug\44 create user define method display.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\bin\Debug\44 create user define method display.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\obj\Debug\44 create user define method display.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\obj\Debug\44 create user define method display.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\obj\Debug\44 create user define method display.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\obj\Debug\44 create user define method display.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\44 create user define method display\obj\Debug\44 create user define method display.pdb

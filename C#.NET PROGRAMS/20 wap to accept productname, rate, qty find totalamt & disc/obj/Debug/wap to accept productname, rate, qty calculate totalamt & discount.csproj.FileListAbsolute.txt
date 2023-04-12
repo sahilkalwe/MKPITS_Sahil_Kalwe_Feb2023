@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\bin\Debug\wap to accept productname, rate, qty calculate totalamt & discount.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\bin\Debug\wap to accept productname, rate, qty calculate totalamt & discount.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\bin\Debug\wap to accept productname, rate, qty calculate totalamt & discount.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\obj\Debug\wap to accept productname, rate, qty calculate totalamt & discount.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\obj\Debug\wap to accept productname, rate, qty calculate totalamt & discount.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\obj\Debug\wap to accept productname, rate, qty calculate totalamt & discount.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\obj\Debug\wap to accept productname, rate, qty calculate totalamt & discount.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\wap to accept productname, rate, qty calculate totalamt & discount\obj\Debug\wap to accept productname, rate, qty calculate totalamt & discount.pdb

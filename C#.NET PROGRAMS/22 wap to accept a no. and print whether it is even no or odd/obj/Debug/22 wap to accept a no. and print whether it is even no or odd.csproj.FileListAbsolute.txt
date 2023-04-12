@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\bin\Debug\_22_wap_to_accept_a_no.and_print_whether_it_is_even_no_or_odd.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\bin\Debug\_22_wap_to_accept_a_no.and_print_whether_it_is_even_no_or_odd.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\bin\Debug\_22_wap_to_accept_a_no.and_print_whether_it_is_even_no_or_odd.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\obj\Debug\22 wap to accept a no. and print whether it is even no or odd.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\obj\Debug\22 wap to accept a no. and print whether it is even no or odd.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\obj\Debug\22 wap to accept a no. and print whether it is even no or odd.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\obj\Debug\_22_wap_to_accept_a_no.and_print_whether_it_is_even_no_or_odd.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\22 wap to accept a no. and print whether it is even no or odd\obj\Debug\_22_wap_to_accept_a_no.and_print_whether_it_is_even_no_or_odd.pdb

@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\bin\Debug\68 multiplication of array.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\bin\Debug\68 multiplication of array.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\bin\Debug\68 multiplication of array.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\obj\Debug\68 multiplication of array.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\obj\Debug\68 multiplication of array.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\obj\Debug\68 multiplication of array.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\obj\Debug\68 multiplication of array.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\68 multiplication of array\obj\Debug\68 multiplication of array.pdb

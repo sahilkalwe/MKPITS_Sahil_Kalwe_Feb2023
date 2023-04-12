@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\bin\Debug\11 accept twon numbers and print greater number.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\bin\Debug\11 accept twon numbers and print greater number.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\bin\Debug\11 accept twon numbers and print greater number.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\obj\Debug\11 accept twon numbers and print greater number.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\obj\Debug\11 accept twon numbers and print greater number.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\obj\Debug\11 accept twon numbers and print greater number.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\obj\Debug\11 accept twon numbers and print greater number.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\11 accept twon numbers and print greater number\obj\Debug\11 accept twon numbers and print greater number.pdb

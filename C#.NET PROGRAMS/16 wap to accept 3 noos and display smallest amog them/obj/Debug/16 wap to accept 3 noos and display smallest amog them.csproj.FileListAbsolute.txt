@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\bin\Debug\16 wap to accept 3 noos and display smallest amog them.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\bin\Debug\16 wap to accept 3 noos and display smallest amog them.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\bin\Debug\16 wap to accept 3 noos and display smallest amog them.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\obj\Debug\16 wap to accept 3 noos and display smallest amog them.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\obj\Debug\16 wap to accept 3 noos and display smallest amog them.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\obj\Debug\16 wap to accept 3 noos and display smallest amog them.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\obj\Debug\16 wap to accept 3 noos and display smallest amog them.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\16 wap to accept 3 noos and display smallest amog them\obj\Debug\16 wap to accept 3 noos and display smallest amog them.pdb

@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\bin\Debug\46 wap to create method calculatesquare by returning value.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\bin\Debug\46 wap to create method calculatesquare by returning value.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\bin\Debug\46 wap to create method calculatesquare by returning value.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\obj\Debug\46 wap to create method calculatesquare by returning value.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\obj\Debug\46 wap to create method calculatesquare by returning value.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\obj\Debug\46 wap to create method calculatesquare by returning value.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\obj\Debug\46 wap to create method calculatesquare by returning value.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\46 wap to create method calculatesquare by returning value\obj\Debug\46 wap to create method calculatesquare by returning value.pdb

@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\obj\Debug\23  wap to accept two number and display operation perform on it.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\obj\Debug\23  wap to accept two number and display operation perform on it.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\obj\Debug\23  wap to accept two number and display operation perform on it.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\bin\Debug\23  wap to accept two number and display operation perform on it.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\bin\Debug\23  wap to accept two number and display operation perform on it.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\bin\Debug\23  wap to accept two number and display operation perform on it.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\obj\Debug\23  wap to accept two number and display operation perform on it.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\23  wap to accept two number and display operation perform on it\obj\Debug\23  wap to accept two number and display operation perform on it.pdb

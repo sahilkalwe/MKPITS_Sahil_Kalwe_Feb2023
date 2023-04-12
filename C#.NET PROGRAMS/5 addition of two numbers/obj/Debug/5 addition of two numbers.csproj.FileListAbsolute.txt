@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\bin\Debug\5 addition of two numbers.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\bin\Debug\5 addition of two numbers.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\bin\Debug\5 addition of two numbers.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\obj\Debug\5 addition of two numbers.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\obj\Debug\5 addition of two numbers.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\obj\Debug\5 addition of two numbers.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\obj\Debug\5 addition of two numbers.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\5 addition of two numbers\obj\Debug\5 addition of two numbers.pdb

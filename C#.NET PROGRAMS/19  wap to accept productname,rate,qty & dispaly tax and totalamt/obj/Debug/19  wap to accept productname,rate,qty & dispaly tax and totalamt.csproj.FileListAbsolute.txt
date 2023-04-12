@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\obj\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\obj\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\obj\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\bin\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\bin\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\bin\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\obj\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\19  wap to accept productname,rate,qty & dispaly tax and totalamt\obj\Debug\19  wap to accept productname,rate,qty & dispaly tax and totalamt.pdb

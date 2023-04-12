@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\obj\Debug\18 wap to accept empno, empname , designation & dispaly bonus.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\obj\Debug\18 wap to accept empno, empname , designation & dispaly bonus.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\obj\Debug\18 wap to accept empno, empname , designation & dispaly bonus.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\bin\Debug\18 wap to accept empno, empname , designation & dispaly bonus.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\bin\Debug\18 wap to accept empno, empname , designation & dispaly bonus.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\bin\Debug\18 wap to accept empno, empname , designation & dispaly bonus.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\obj\Debug\18 wap to accept empno, empname , designation & dispaly bonus.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\18 wap to accept empno, empname , designation & dispaly bonus\obj\Debug\18 wap to accept empno, empname , designation & dispaly bonus.pdb
