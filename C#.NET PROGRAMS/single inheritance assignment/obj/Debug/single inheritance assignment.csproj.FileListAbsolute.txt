@@ -1,0 +1,8 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\bin\Debug\single inheritance assignment.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\bin\Debug\single inheritance assignment.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\bin\Debug\single inheritance assignment.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\obj\Debug\single inheritance assignment.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\obj\Debug\single inheritance assignment.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\obj\Debug\single inheritance assignment.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\obj\Debug\single inheritance assignment.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\single inheritance assignment\obj\Debug\single inheritance assignment.pdb
