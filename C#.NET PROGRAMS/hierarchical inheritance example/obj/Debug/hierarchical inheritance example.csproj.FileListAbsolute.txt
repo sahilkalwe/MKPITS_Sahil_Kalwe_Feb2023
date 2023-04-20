@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\bin\Debug\hierarchical inheritance example.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\bin\Debug\hierarchical inheritance example.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\bin\Debug\hierarchical inheritance example.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\obj\Debug\hierarchical inheritance example.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\obj\Debug\hierarchical inheritance example.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\obj\Debug\hierarchical inheritance example.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\obj\Debug\hierarchical inheritance example.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\hierarchical inheritance example\obj\Debug\hierarchical inheritance example.pdb

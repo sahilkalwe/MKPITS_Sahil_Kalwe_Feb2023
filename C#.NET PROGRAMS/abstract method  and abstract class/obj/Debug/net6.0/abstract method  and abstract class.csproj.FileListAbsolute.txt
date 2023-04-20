@@ -1,0 +1,15 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\bin\Debug\net6.0\abstract method  and abstract class.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\bin\Debug\net6.0\abstract method  and abstract class.deps.json
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\bin\Debug\net6.0\abstract method  and abstract class.runtimeconfig.json
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\bin\Debug\net6.0\abstract method  and abstract class.dll
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\bin\Debug\net6.0\abstract method  and abstract class.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.AssemblyInfoInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.AssemblyInfo.cs
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.dll
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\refint\abstract method  and abstract class.dll
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\abstract method  and abstract class.genruntimeconfig.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\abstract method  and abstract class\obj\Debug\net6.0\ref\abstract method  and abstract class.dll
