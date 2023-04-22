@@ -1,0 +1,11 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie tickit example in windows form.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie tickit example in windows form.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie_tickit_example_in_windows_form.Form1.resources
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie_tickit_example_in_windows_form.Properties.Resources.resources
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie tickit example in windows form.csproj.GenerateResource.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie tickit example in windows form.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\bin\Debug\Movie tickit example in windows form.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\bin\Debug\Movie tickit example in windows form.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\bin\Debug\Movie tickit example in windows form.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie tickit example in windows form.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Movie tickit example in windows form\Movie tickit example in windows form\obj\Debug\Movie tickit example in windows form.pdb
