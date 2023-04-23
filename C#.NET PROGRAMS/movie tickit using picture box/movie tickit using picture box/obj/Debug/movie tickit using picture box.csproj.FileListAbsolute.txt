@@ -1,0 +1,11 @@
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\bin\Debug\movie tickit using picture box.exe.config
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\bin\Debug\movie tickit using picture box.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\bin\Debug\movie tickit using picture box.pdb
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie tickit using picture box.csproj.AssemblyReference.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie tickit using picture box.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie_tickit_using_picture_box.Form1.resources
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie_tickit_using_picture_box.Properties.Resources.resources
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie tickit using picture box.csproj.GenerateResource.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie tickit using picture box.csproj.CoreCompileInputs.cache
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie tickit using picture box.exe
+D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\movie tickit using picture box\movie tickit using picture box\obj\Debug\movie tickit using picture box.pdb
