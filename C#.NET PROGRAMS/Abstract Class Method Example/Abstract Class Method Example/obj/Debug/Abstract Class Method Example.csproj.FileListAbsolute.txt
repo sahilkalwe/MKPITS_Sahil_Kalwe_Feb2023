@@ -1,8 +1,0 @@
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\obj\Debug\Abstract Class Method Example.csproj.AssemblyReference.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\obj\Debug\Abstract Class Method Example.csproj.SuggestedBindingRedirects.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\obj\Debug\Abstract Class Method Example.csproj.CoreCompileInputs.cache
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\bin\Debug\Abstract Class Method Example.exe.config
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\bin\Debug\Abstract Class Method Example.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\bin\Debug\Abstract Class Method Example.pdb
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\obj\Debug\Abstract Class Method Example.exe
-D:\Dotnet program\MKPITS_Sahil_Kalwe_Feb2023\C#.NET PROGRAMS\Abstract Class Method Example\Abstract Class Method Example\obj\Debug\Abstract Class Method Example.pdb
