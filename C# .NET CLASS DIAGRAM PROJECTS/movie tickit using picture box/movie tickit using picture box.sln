@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie tickit using picture box", "movie tickit using picture box\movie tickit using picture box.csproj", "{DA3EA440-00C4-4441-871A-6AFF28E87A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3EA440-00C4-4441-871A-6AFF28E87A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3EA440-00C4-4441-871A-6AFF28E87A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3EA440-00C4-4441-871A-6AFF28E87A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3EA440-00C4-4441-871A-6AFF28E87A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {479924B6-348F-42CE-A11D-646B72D94B11}
+	EndGlobalSection
+EndGlobal

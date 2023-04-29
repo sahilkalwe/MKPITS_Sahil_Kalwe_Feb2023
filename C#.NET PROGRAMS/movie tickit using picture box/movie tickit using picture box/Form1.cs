@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using movie_tickit_using_picture_box;
+using static movie_tickit_using_picture_box.OnlineBooking;
 
 namespace movie_tickit_using_picture_box
 {
@@ -140,10 +143,8 @@ namespace movie_tickit_using_picture_box
                     pictureBox5.Hide();
                     pictureBox1.Hide();
                     break;
-
             }
         }
-
         private void comboBox2_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
@@ -199,6 +200,7 @@ namespace movie_tickit_using_picture_box
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            
             groupBox3.Show();
             button2.Show();
             label16.Text =comboBox1.Text;
@@ -209,17 +211,21 @@ namespace movie_tickit_using_picture_box
             if (radioButton1.Checked)
             {
                 mt = new OnlineBooking(Convert.ToInt32(numericUpDown1.Value), Convert.ToSingle(textBox1.Text));
+
             }
+
             else if (radioButton2.Checked)
             {
-                //mt=new BoxOffice(Convert.ToInt32)(numericUpDown1.Value), Convert.ToSingle(textBox1.Text);
+               mt = new BoxOffice(Convert.ToInt32(numericUpDown1.Value),Convert.ToSingle(textBox1.Text));
             }
             label15.Text = mt.CalculateTicketPrice();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Your Ticket Book Succesfully");
+  
+                MessageBox.Show("Your Ticket Book Succesfully");
         }
     }
+
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace movie_tickit_using_picture_box
 {
-    abstract class MovieTicket
+   public abstract class MovieTicket
     {
         public string MovieName { get; set; }
         public string TheatreName { get; set; }
@@ -16,20 +16,23 @@ namespace movie_tickit_using_picture_box
         public abstract string CalculateTicketPrice();
 
     }
-    class OnlineBooking:MovieTicket
+   public class OnlineBooking : MovieTicket
     {
-        public OnlineBooking(int NoOfSeats,float Ticketprice)
+        public OnlineBooking(int NoOfSeats, float TicketPrice)
         {
             this.NoOfSeats = NoOfSeats;
             this.TicketPrice = TicketPrice;
         }
         public float discount { get; set; }
-        public override string CalculateTicketPrice() 
+        public override string CalculateTicketPrice()
         {
-            float tp = NoOfSeats * TicketPrice - discount;
-            return "Total Ticket Price is " + tp.ToString();
+            float tp = NoOfSeats * TicketPrice;
+            discount = tp * 0.10f;
+            tp = tp - discount;
+            return "tp " + tp;
         }
-        class BoxOffice:MovieTicket
+    }
+         public class BoxOffice : MovieTicket
         {
             public BoxOffice(int NoOfSeats, float TicketPrice)
             {
@@ -39,9 +42,11 @@ namespace movie_tickit_using_picture_box
             public float BookingFees { get; set; }
             public override string CalculateTicketPrice()
             {
-                float tp = NoOfSeats * TicketPrice + BookingFees;
-                return "Total Price Of Ticket Is "+tp.ToString();
+                float tp = NoOfSeats * TicketPrice;
+                BookingFees = 20;
+                tp = tp + 20;
+                return " "+tp;
             }
         }
-    }
-}
+ }
+

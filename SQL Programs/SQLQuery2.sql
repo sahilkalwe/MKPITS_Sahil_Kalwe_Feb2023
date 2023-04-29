@@ -1,0 +1,13 @@
+create table user1 (srno int primary key,userid int,username varchar (10),password varchar(10),emailid varchar(10),gender varchar(10),city varchar(10),country varchar(10))
+insert into user1 values(1,'111','sahil1','abc','sahilkal1','male','nagpuar','india')
+insert into user1 values(2,'112','sahil2','abc','sahilkal2','male','nagpuar','mozambiq')
+insert into user1 values(3,'113','sahil3','abc','sahilkal3','male','nagpaaur','irlanda')
+insert into user1 values(4,'114','sahil4','abc','sahilkal4','male','nagpaur','island')
+insert into user1 values(5,'115','sahil5','abc','sahilkal5','male','nagpaur','india')
+insert into user1 values(6,'116','sahil6','abc','sahilkal6','male','nagspur','somalia')
+insert into user1 values(7,'117','sahil7','abc','sahilkal7','male','nadgpur','pak')
+insert into user1 values(8,'118','sahil8','abc','sahilkal8','male','naagpur','srilanka')
+insert into user1 values(9,'119','sahil9','abc','sahilkal9','male','agpur','newzeland')
+insert into user1 values(10,'120','sahil10','abc','sahilkal10','male','pur','lakshwdeep')
+insert into user1 values(11,'121','sahil11','abc','sahilkal11','male','sunpur','india') 
+select * from user1
