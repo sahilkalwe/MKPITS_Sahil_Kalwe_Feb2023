@@ -85,15 +85,17 @@ namespace Admission_form
             da.Fill(ds, "Course");
             return ds;
         }
-            public static string saveAdmission(String Name,long Contact, int Country_ID, int State_ID, int City_ID, DateTime AdmissionDate,int CourseID ,decimal fees, decimal AmountPaid, decimal Balance)
+            public static string saveAdmission(int gender,string Contact, int Country_ID, int State_ID, int City_ID, DateTime AdmissionDate,int CourseID ,decimal fees, decimal AmountPaid, decimal Balance)
         {
+
+         
             String result = null;
-            string query = "Insert Into Admission Values (@Name,@Contact,@Country_ID,@State_ID,@City_ID,@AdmissionDate,@CourseID,@fees,@AmountPaid,@Balance)";
+            string query = "Insert Into Admission Values (@Gender,@Contact,@Country_ID,@State_ID,@City_ID,@AdmissionDate,@CourseID,@fees,@AmountPaid,@Balance)";
             SqlConnection con = GetConnection();
             SqlCommand command = new SqlCommand(query, con);
             //command.Parameters.AddWithValue("@AdmissionID",AdmissionID);
-            command.Parameters.AddWithValue("@Name", Name);
-            //command.Parameters.AddWithValue("@Gender",Gender);
+           // command.Parameters.AddWithValue("@Name", Name);
+            command.Parameters.AddWithValue("@Gender",gender);
             command.Parameters.AddWithValue("@Contact",Contact);
             command.Parameters.AddWithValue("@Country_ID", Country_ID);
             command.Parameters.AddWithValue("@State_ID", State_ID);

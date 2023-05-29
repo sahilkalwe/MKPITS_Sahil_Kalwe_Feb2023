@@ -68,6 +68,8 @@ namespace Admission_form
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
+           // if (radioButton1.Checked)
+                gender = GENDER.Male;
 
         }
 
@@ -92,6 +94,7 @@ namespace Admission_form
         public void Calculate_Total()
         {
 
+            
             double Balance = Convert.ToDouble(textBox3.Text) - Convert.ToDouble(textBox4.Text);
             textBox5.Text = Balance.ToString();
         }
@@ -135,6 +138,7 @@ namespace Admission_form
             comboBox2.ValueMember = "StateID";
         }
 
+         
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataSet ds1 = new DataSet();
@@ -160,12 +164,13 @@ namespace Admission_form
             {
 
 
-                string result = AdmissionForm.saveAdmission(textBox1.Text, Convert.ToInt16(textBox2.Text),
+                string result = AdmissionForm.saveAdmission(Convert.ToInt32(gender),
+                 textBox2.Text,
                 Convert.ToInt32(comboBox1.SelectedValue),
                 Convert.ToInt32(comboBox2.SelectedValue),
                 Convert.ToInt32(comboBox3.SelectedValue),
-                Convert.ToInt32(comboBox4.SelectedValue),
                 dateTimePicker1.Value,
+                Convert.ToInt32(comboBox4.SelectedValue),
                 Convert.ToInt32(textBox3.Text),
                 Convert.ToDecimal(textBox4.Text),
                 Convert.ToInt32(textBox5.Text));
@@ -173,6 +178,24 @@ namespace Admission_form
 
             }
 
+
+        }
+
+        private void textBox4_Leave(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CheckUserDetails();
+            clearall();
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            //if(radioButton2.Checked) 
+            gender = GENDER.Female;
 
         }
     }
