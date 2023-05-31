@@ -28,16 +28,24 @@ insert into TableProduct values (1002,'Realme',14000)
 
 
 select * from TableProduct;
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+create table TableProductDetails(AvailableQty int ,TotalQty int,TotalPrice Varchar(500),FirstName Varchar(20),LastName Varchar(20), 
+Gender Varchar(20),Contact Varchar(200),ProductName varchar(500), ProductPrice int)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-create table TableInvoiceDetails(InvoiceDetailID int primary key identity,CustomerName varchar(500),Contact varchar(15),
-ProductCategoryID int constraint p1 Foreign Key (ProductCategoryID) references TableProductCategory(ProductCategoryID), 
-ProductID int constraint p2 Foreign Key (ProductID) references TableProduct(ProductID), 
-ResedentialTypeID int,InvoiceDate DateTime,Quantity Decimal,Price Decimal,CGST Decimal,SGST Decimal,IGST Decimal, CGSTValue Decimal,SGSTValue Decimal,IGSTValue Decimal,
-TotalAmount Decimal)
-insert into TableInvoiceDetails values ('Rahul',98521322110 ,1002,210,3001,2023-04-04,1,50000,6,6,12,3000,3000,6000,56000)
-insert into TableInvoiceDetails values ('Nikita',7861232210,1001,211,3002,2023-04-08,1,65000,9,9,18,11700,5850,5850,76700)
-insert into TableInvoiceDetails values ('gopal',1234567890,1001,215,3003,2023-04-12,1,60000,9,9,18,5400,5400,10800,70800)
-insert into TableInvoiceDetails values ('anand',1234567890,1002,210,3004,2023-04-12,1,40000,6,6,6,2400,2400,2400,42400)
+create table TableInvoiceDetails(InvoiceDetailID int primary key identity, AvailableQty int ,TotalQty int,FirstName varchar(500),
+LastName varchar(500),Gender varchar(20), Contact varchar(15),
+InvoiceDate DateTime,Price Decimal,CGST Decimal,SGST Decimal, CGSTValue Decimal,SGSTValue Decimal,
+TotalPrice Decimal,PaidAmount Decimal,NetAmount Decimal)
+
+
+insert into TableInvoiceDetails values (6,10,'Rahul','Likhar','Male','98521322110',2023-04-04,50000,6,6,3000,3000,6000,56000,12000)
+insert into TableInvoiceDetails values (16,20,'Nikita','Pande','Female','7861232210',2023-04-08,65000,9,9,11700,5850,5850,76700,13000)
+insert into TableInvoiceDetails values (8,22,'gopal','Bondre','Male','1234567890',2023-04-12,60000,9,9,5400,5400,10800,70800,14000)
+insert into TableInvoiceDetails values (9,10,'anand','Palliwar','Male','1234567890',2023-04-12,40000,6,6,2400,2400,2400,42400,15000)
 
 
 select * from TableInvoiceDetails
