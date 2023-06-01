@@ -13,8 +13,7 @@ namespace ASP10
         {
 
         }
-
-        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        public void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             DropDownList3.Items.Clear();    
             switch(DropDownList1.Text)
@@ -32,14 +31,34 @@ namespace ASP10
                     DropDownList3.Items.Add("Nostadq");
                     break;
 
-                case "Amearica":
-                    DropDownList3.Items.Add("Chicago");
-                    DropDownList3.Items.Add("Amsterdam");
-                    DropDownList3.Items.Add("New York");
-                    DropDownList3.Items.Add("Washington");
+                case "Nepal":
+                    DropDownList3.Items.Add("Katmandu");
                     break;
 
             }
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            System.Text.StringBuilder sb=new System.Text.StringBuilder();
+            sb.Append("Country  " + DropDownList1.Text + "<br>");
+            sb.Append("City  " + DropDownList3.Text + "<br>");
+            foreach (ListItem li in CheckBoxList1.Items)
+            {
+                if(li.Selected)
+                {
+                    sb.Append("Course  " + li.Value + "<br>");
+
+                }
+
+            }
+            sb.Append("Center  " + ListBox1.SelectedItem.ToString() + "<br>");
+            Label1.Text=sb.ToString();
         }
     }
 }
