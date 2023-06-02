@@ -66,7 +66,7 @@
         <tr>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style1">
-                <asp:Button ID="Button1" runat="server" Text="Ok" />
+                <asp:Button ID="Button1" runat="server" Text="Ok" OnClick="Button1_Click" />
             </td>
         </tr>
         <tr>
@@ -102,6 +102,11 @@
         <script runat="server">
 
             protected void Page_Load(object sender, EventArgs e)
+            {
+
+            }
+
+            protected void Button1_Click(object sender, EventArgs e)
             {
 
             }
