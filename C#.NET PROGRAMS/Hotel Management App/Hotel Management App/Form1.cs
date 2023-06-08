@@ -29,18 +29,19 @@ namespace Hotel_Management_App
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           //panel3.Hide();
-           panel5.Hide();
-           // groupBox1.Hide();
-            panel4.Hide();
-           
+            panel5.Hide();
+            groupBox1.Hide();
+            groupBox2.Hide();  
+       
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            panel4.Show();
-            button1.Hide();
-            button2.Hide();
+            groupBox2.Show();
+            pictureBox1.Hide();
+            pictureBox2.Hide();
+            pictureBox3.Hide();
+            pictureBox4.Hide();
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -50,29 +51,64 @@ namespace Hotel_Management_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-           // groupBox1.Hide();
-            //panel5.Show();
-            panel5.Visible = true;
-          
-           
+            groupBox1.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            panel4.Show();
-            button2.Hide();
-            button3.Hide();
+   
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            groupBox1.Show();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Show();
+            pictureBox2.Hide();
+            pictureBox3.Hide();
+            pictureBox4.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Show();
+            pictureBox1.Hide();
+            pictureBox3.Hide();
+            pictureBox4.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Show();
+            pictureBox2.Hide();
+            pictureBox1.Hide();
+            pictureBox4.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Show();
+            pictureBox2.Hide();
+            pictureBox3.Hide();
+            pictureBox1.Hide();
         }
     }
 }
