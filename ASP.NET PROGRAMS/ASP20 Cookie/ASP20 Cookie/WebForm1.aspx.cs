@@ -32,7 +32,7 @@ namespace ASP20_Cookie
         protected void Button2_Click(object sender, EventArgs e)
         {
             //code to retrieve cookie from client machine
-            HttpCookie cookie1 = Request.Cookies["cook"];
+            HttpCookie cookie1 = Request.Cookies["cook1"];
             if (cookie1 != null)
             {
                 string uname = cookie1.Values["username"].ToString();

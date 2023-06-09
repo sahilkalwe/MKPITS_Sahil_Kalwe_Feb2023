@@ -1,0 +1,116 @@
+<html>
+<head>
+<style>
+#main{width: 300px; height: 280px; background-color:black;}
+input{width: 20%;height: 40px; font-size: 20 px; margin:6px;}
+#abc{width:96% height:50px;background-color:silver;}
+
+
+
+</style>
+</head>
+<body>
+ <div id="main">
+ <form name="f">
+<input type="text" name="Calci" placeholder="0" id="abc"> <br>
+<input type="button" value ="1" onclick="f.Calci.value+=1">
+<input type="button" value ="2" onclick="f.Calci.value+=2">
+<input type="button" value ="3" onclick="f.Calci.value+=3">
+<input type="button" value ="+" onclick="add()">
+<br>
+<input type="button" value ="4" onclick="f.Calci.value+=4">
+<input type="button" value ="5" onclick="f.Calci.value+=5">
+<input type="button" value ="6" onclick="f.Calci.value+=6">
+<input type="button" value ="-" onclick="sub()">
+<br>
+<input type="button" value ="7" onclick="f.Calci.value+=7">
+<input type="button" value ="8" onclick="f.Calci.value+=8">
+<input type="button" value ="9" onclick="f.Calci.value+=9">
+<input type="button" value ="/" onclick="div()">
+<br>
+<input type="button" value ="C" onclick="f.Calci.value =''">
+<input type="button" value ="0" onclick="f.Calci.value+=0">
+<input type="button" value ="=" onclick="f.Calci.value=eval(f.Calci .value)">
+<input type="button" value ="X" onclick="mul()">
+<br>
+
+ </form>
+</div> 
+<script>
+function add()
+{
+var a=0,b=0;
+a=f.Calci.value;
+b= a.charAt(a.length-1)
+if(b=='+' || b=='-' || b=='/' || b=='*')
+{
+f.Calci.value=a.substring(0,a.length-1);
+f.Calci.value+='+';
+}
+else
+{ 
+f.Calci.value+='+';
+}
+}
+
+
+
+function sub()
+{
+var a=0,b=0;
+a=f.Calci.value;
+b= a.charAt(a.length-1)
+if(b=='+' || b=='-' || b=='/' || b=='*')
+{
+f.Calci.value=a.substring(0,a.length-1);
+f.Calci.value+='-';
+}
+else
+{ 
+f.Calci.value+='-';
+}
+
+}
+
+
+function div()
+{
+var a=0,b=0;
+a=f.Calci.value;
+b= a.charAt(a.length-1)
+if(b=='+' || b=='-' || b=='/' || b=='*')
+{
+f.Calci.value=a.substring(0,a.length-1);
+f.Calci.value+='/';
+}
+else
+{ 
+f.Calci.value+='/';
+}
+
+}
+
+
+function mul()
+{
+var a=0,b=0;
+a=f.Calci.value;
+b= a.charAt(a.length-1)
+if(b=='+' || b=='-' || b=='/' || b=='*')
+{
+f.Calci.value=a.substring(0,a.length-1);
+f.Calci.value+='*';
+}
+else
+{ 
+f.Calci.value+='*';
+}
+
+}
+
+</script>
+ 
+ 
+
+</body>
+</html>
