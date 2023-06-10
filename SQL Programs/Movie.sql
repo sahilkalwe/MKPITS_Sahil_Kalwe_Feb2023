@@ -1,0 +1,1 @@
+create table MovieDetails(MovieName  varchar(20),TheatreName varchar(20),ShowTime decimal,NoOfSeats int,TicketPrice int ,BookingType  varchar(20));

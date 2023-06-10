@@ -1,0 +1,56 @@
+Operation stopped...
+
+- Initializing Data Flow Task (Success)
+
+- Initializing Connections (Success)
+
+- Setting SQL Command (Success)
+
+- Setting Source Connection (Success)
+
+- Setting Destination Connection (Success)
+
+- Validating (Success)
+	Messages
+	* Warning 0x80049304: Data Flow Task 1: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+	 (SQL Server Import and Export Wizard)
+	
+
+- Prepare for Execute (Success)
+
+- Pre-execute (Error)
+	Messages
+	* Information 0x402090dc: Data Flow Task 1: The processing of file "C:\Users\ASUS\Downloads\Countries-States-Cities-database-master\data.txt" has started.
+	 (SQL Server Import and Export Wizard)
+	
+	* Information 0x402090dc: Data Flow Task 1: The processing of file "C:\Users\ASUS\Downloads\Countries-States-Cities-database-master\data.txt" has started.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80070020: Data Flow Task 1: The process cannot access the file because it is being used by another process.
+	 (SQL Server Import and Export Wizard)
+	
+	* Error 0xc020200e: Data Flow Task 1: Cannot open the datafile "C:\Users\ASUS\Downloads\Countries-States-Cities-database-master\data.txt".
+	 (SQL Server Import and Export Wizard)
+	
+	* Error 0xc004701a: Data Flow Task 1: Source - data_txt failed the pre-execute phase and returned error code 0xC020200E.
+	 (SQL Server Import and Export Wizard)
+	
+
+- Executing (Success)
+
+- Copying to C:\Users\ASUS\Downloads\Countries-States-Cities-database-master\data.txt (Stopped)
+
+- Post-execute (Stopped)
+	Messages
+	* Information 0x402090dd: Data Flow Task 1: The processing of file "C:\Users\ASUS\Downloads\Countries-States-Cities-database-master\data.txt" has ended.
+	 (SQL Server Import and Export Wizard)
+	
+	* Information 0x402090dd: Data Flow Task 1: The processing of file "C:\Users\ASUS\Downloads\Countries-States-Cities-database-master\data.txt" has ended.
+	 (SQL Server Import and Export Wizard)
+	
+	* Information 0x4004300b: Data Flow Task 1: "Destination - data_txt" wrote 0 rows.
+	 (SQL Server Import and Export Wizard)
+	
+
+
+

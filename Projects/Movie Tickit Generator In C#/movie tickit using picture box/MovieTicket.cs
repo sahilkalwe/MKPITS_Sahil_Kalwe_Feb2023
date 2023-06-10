@@ -1,12 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace movie_tickit_using_picture_box
 {
-   public abstract class MovieTicket
+    private static string connectionString = "server=LAPTOP-AQT0G55D\\SQLEXPRESS01; integrated security=true;database=Movie;";
+
+    public static SqlConnection GetConnection()
+    {
+        SqlConnection conn = new SqlConnection(connectionString);
+        try
+        {
+            //conn.Open();
+            return conn;
+        }
+        catch (Exception ee)
+        {
+            return null;
+        }
+        finally
+        {
+            //conn.Close();
+        }
+    }
+    public abstract class MovieTicket
     {
         public string MovieName { get; set; }
         public string TheatreName { get; set; }
@@ -48,5 +68,6 @@ namespace movie_tickit_using_picture_box
                 return " "+tp;
             }
         }
+
  }
 

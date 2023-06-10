@@ -1,0 +1,4 @@
+"name","type","length","leftDigits","rightDigits"
+"id","INTEGER","5","5","0"
+"name","STRING","30","0","0"
+"state_id","INTEGER","4","4","0"
