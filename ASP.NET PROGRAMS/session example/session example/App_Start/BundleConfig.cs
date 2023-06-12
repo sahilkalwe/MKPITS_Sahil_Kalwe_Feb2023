@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace session_example
+namespace Session_Example
 {
     public class BundleConfig
     {

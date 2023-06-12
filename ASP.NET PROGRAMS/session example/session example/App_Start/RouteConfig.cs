@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace session_example
+namespace Session_Example
 {
     public static class RouteConfig
     {

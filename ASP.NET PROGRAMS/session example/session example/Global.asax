@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="session_example.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Session_Example.Global" Language="C#" %>

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace session_example
+namespace Session_Example
 {
 
 

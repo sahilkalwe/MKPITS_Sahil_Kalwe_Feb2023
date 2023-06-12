@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="session_example._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Session_Example._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -12,6 +12,15 @@
         <div class="row">
             <section class="col-md-4" aria-labelledby="gettingStartedTitle">
                 <h2 id="gettingStartedTitle">Getting started</h2>
+              <h3> 
+                  <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+
+              </h3>
                 <p>
                     ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
                 A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.

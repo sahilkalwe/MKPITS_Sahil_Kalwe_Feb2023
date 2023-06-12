@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace session_example
+namespace Session_Example
 {
     public class Global : HttpApplication
     {
@@ -16,6 +16,9 @@ namespace session_example
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+           
+            Application["Companyname"] = "Mkpits services";
+            Application["Counter"] = 0;
         }
     }
 }
