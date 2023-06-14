@@ -38,11 +38,11 @@
             <br />
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Insert" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button3" runat="server" Text="Update" />
+            <asp:Button ID="Button3" runat="server" Text="Update" OnClick="Button3_Click" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button4" runat="server" Text="Delete" />
+            <asp:Button ID="Button4" runat="server" Text="Delete" OnClick="Button4_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button5" runat="server" Text="Search" />
+            <asp:Button ID="Button5" runat="server" Text="Search" OnClick="Button5_Click" />
             <br />
             <br />
             <br />
