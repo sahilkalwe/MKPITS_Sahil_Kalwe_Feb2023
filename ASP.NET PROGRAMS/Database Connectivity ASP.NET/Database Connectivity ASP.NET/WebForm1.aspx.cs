@@ -11,7 +11,7 @@ namespace Database_Connectivity_ASP.NET
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("server=\\LAPTOP-AQT0G55D\\SQLEXPRESS01;integrated security=true;database=product");
+        SqlConnection con = new SqlConnection("server=LAPTOP-AQT0G55D\\SQLEXPRESS01;integrated security=true;database=product");
         DataSet ds = new DataSet();
         SqlDataAdapter da;
         string str = null;
@@ -23,7 +23,7 @@ namespace Database_Connectivity_ASP.NET
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            str = "insert into tableproduct values(@product_id,product_name,@product_rate,@product_quantity)";
+            str = "insert into product values(@product_id,@product_name,@product_rate,@product_quantity)";
             SqlCommand command = new SqlCommand(str, con);
             command.Parameters.AddWithValue("@product_id",Convert.ToInt32(TextBox1.Text));
             command.Parameters.AddWithValue("@product_name",TextBox2.Text);
@@ -44,17 +44,17 @@ namespace Database_Connectivity_ASP.NET
         }
         public void loaddata()
         {
-            str = "select * from tableproduct";
+            str = "select * from product";
             da=new SqlDataAdapter(str, con);
-            da.Fill(ds,"tableproduct");
-            GridView1.DataSource = ds.Tables["tableproduct"].DefaultView;
+            da.Fill(ds,"product");
+            GridView1.DataSource = ds.Tables["product"].DefaultView;
             GridView1.DataBind();
 
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            str = "update tableproduct set product_name=@product_name,product_rate=@product_rate,product_quantity=@product_quantity where product_id=@product_id";
+            str = "update product set product_name=@product_name,product_rate=@product_rate,product_quantity=@product_quantity where product_id=@product_id";
             SqlCommand command = new SqlCommand(str, con);
             command.Parameters.AddWithValue("@product_name",TextBox2.Text);
             command.Parameters.AddWithValue("@product_rate", Convert.ToInt32(TextBox3.Text));
@@ -71,7 +71,7 @@ namespace Database_Connectivity_ASP.NET
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-            str="Delete from tableproduct where product_id = @product_id";
+            str="Delete from product where product_id = @product_id";
             SqlCommand command = new SqlCommand(str, con);
             command.Parameters.AddWithValue("@product_id", Convert.ToInt32(TextBox1.Text));
             con.Open();
@@ -85,14 +85,15 @@ namespace Database_Connectivity_ASP.NET
 
         protected void Button5_Click(object sender, EventArgs e)
         {
-            str = "select * from tableproduct where product_id = @product_id";
+            str = "select * from product where product_id = @product_id";
             da = new SqlDataAdapter(str, con);
             da.SelectCommand.Parameters.AddWithValue("@product_id", Convert.ToInt32(TextBox1.Text));
-            da.Fill(ds, "tableproduct");
-            TextBox2.Text = ds.Tables["tableproduct"].Rows[0].ItemArray[1].ToString();
-            TextBox3.Text = ds.Tables["tableproduct"].Rows[0].ItemArray[2].ToString();
-            TextBox4.Text = ds.Tables["tableproduct"].Rows[0].ItemArray[3].ToString();
-            GridView1.DataSource = ds.Tables["tableProduct"].DefaultView;
+            
+            da.Fill(ds, "product");
+            TextBox2.Text = ds.Tables["product"].Rows[0].ItemArray[1].ToString();
+            TextBox3.Text = ds.Tables["product"].Rows[0].ItemArray[2].ToString();
+            TextBox4.Text = ds.Tables["product"].Rows[0].ItemArray[3].ToString();
+            GridView1.DataSource = ds.Tables["Product"].DefaultView;
             GridView1.DataBind();
         }
     }
