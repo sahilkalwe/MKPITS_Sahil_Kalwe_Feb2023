@@ -1,6 +1,8 @@
 create table Item_Master(Item_ID int primary key,Item_Name varchar(500) not null,
 Category varchar(500) not null,rate int,Balance_Quantity int not null)
 
+drop Table Item_Master
+
 select * from Item_Master
 
 
