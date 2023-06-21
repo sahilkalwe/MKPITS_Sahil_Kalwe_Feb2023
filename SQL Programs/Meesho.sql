@@ -7,3 +7,4 @@ SELECT TOP (1000) [prodid]
       ,[qty]
       ,[prodimage]
   FROM [Meesho].[dbo].[Product]
+  select * from product

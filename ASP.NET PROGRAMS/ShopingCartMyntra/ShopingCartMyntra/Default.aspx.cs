@@ -22,8 +22,8 @@ namespace ShopingCartMyntra
                 da = new SqlDataAdapter("select * from product", con);
                 ds = new DataSet();
                 da.Fill(ds, "product");
-                //DataList1.DataSource = ds.Tables["product"].DefaultView;
-                //DataList1.DataBind();
+                DataList1.DataSource = ds.Tables["product"].DefaultView;
+                DataList1.DataBind();
 
 
             }
