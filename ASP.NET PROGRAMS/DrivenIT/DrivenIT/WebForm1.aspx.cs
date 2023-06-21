@@ -39,7 +39,7 @@ namespace DrivenIT
 
                 }
                 command.Parameters.AddWithValue("@TransType",transt);
-                command.Parameters.AddWithValue("@TransQty", Convert.ToInt32(TextBox1.Text));
+                command.Parameters.AddWithValue("@TransQty", Convert.ToInt32(TextBox3.Text));
                 command.Parameters.AddWithValue("@TransDate", TextBox2.Text);
                 con.Open();
                 command.ExecuteNonQuery();
@@ -55,11 +55,11 @@ namespace DrivenIT
                 int bq = Convert.ToInt32(command.ExecuteScalar());
                 if (transt=="I")
                 {
-                   bq=bq-Convert.ToInt32(TextBox1.Text);
+                   bq=bq-Convert.ToInt32(TextBox3.Text);
                 }
                 else if (transt=="R")
                 {
-                   bq=bq+Convert.ToInt32(TextBox1.Text);
+                   bq=bq+Convert.ToInt32(TextBox3.Text);
 
                 }
 
@@ -91,12 +91,12 @@ namespace DrivenIT
         {
             int updateqty = 0;
             Response.Write("Transaction ID " + transid.ToString());
-            updateqty = Convert.ToInt32(TextBox1.Text) - oldtransqty;
+            updateqty = Convert.ToInt32(TextBox3.Text) - oldtransqty;
             Response.Write("Updated Qty " + updateqty.ToString());
 
             try
             {
-                query = "update transactions set ItemID=@ItemID,TransType=@TransType,TransQty=@TransQty,TransDate=@TransDate where TransID=@TransID";
+                query = "update transactions set TransType=@TransType,TransQty=@TransQty,TransDate=@TransDate where TransID=@TransID";
                 command = new SqlCommand(query, con);
 
                 string transt = null;
@@ -110,7 +110,7 @@ namespace DrivenIT
                 }
                 command.Parameters.AddWithValue("@ItemID", DropDownList1.SelectedValue);
                 command.Parameters.AddWithValue("@TransType", transt);
-                command.Parameters.AddWithValue("@TransQty", Convert.ToInt32(TextBox1.Text));
+                command.Parameters.AddWithValue("@TransQty", Convert.ToInt32(TextBox3.Text));
                 command.Parameters.AddWithValue("@TransDate", TextBox2.Text);
                 command.Parameters.AddWithValue("@TransID", transid);
                 con.Open();
@@ -180,23 +180,25 @@ namespace DrivenIT
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            TextBox1.Text = GridView1.SelectedRow.Cells[4].Text;
-            oldtransqty= Convert.ToInt32(TextBox1.Text);
-            DateTime dd = Convert.ToDateTime(GridView1.SelectedRow.Cells[5].Text);
-            TextBox2.Text=dd.ToString("yyyy-MM-dd");
-            DropDownList1.SelectedValue = GridView1.SelectedRow.Cells[1].Text;
-            string res = GridView1.SelectedRow.Cells[3].Text;
-            if(res=="I")
-            {
-                RadioButton2.Checked = false;
-                RadioButton1.Checked=true;
-            }
-            if(res=="R")
-            {
-                RadioButton1.Checked = false;
-                RadioButton2.Checked = true;
-            }
-            transid = Convert.ToInt32(GridView1.SelectedRow.Cells[1].Text);
+            TextBox3.Text = GridView1.SelectedRow.Cells[3].Text;
+
+
+            //oldtransqty= Convert.ToInt32(TextBox1.Text);
+            //DateTime dd = Convert.ToDateTime(GridView1.SelectedRow.Cells[5].Text);
+            //TextBox2.Text=dd.ToString("yyyy-MM-dd");
+            //DropDownList1.SelectedValue = GridView1.SelectedRow.Cells[1].Text;
+            //string res = GridView1.SelectedRow.Cells[3].Text;
+            //if(res=="I")
+            //{
+            //    RadioButton2.Checked = false;
+            //    RadioButton1.Checked=true;
+            //}
+            //if(res=="R")
+            //{
+            //    RadioButton1.Checked = false;
+            //    RadioButton2.Checked = true;
+            //}
+            //transid = Convert.ToInt32(GridView1.SelectedRow.Cells[1].Text);
         }
     }
 

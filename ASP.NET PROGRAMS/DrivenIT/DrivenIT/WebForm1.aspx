@@ -14,13 +14,13 @@
         <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp; Transaction Type&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:RadioButton ID="RadioButton1" runat="server" Text="Issue" />
+        <asp:RadioButton ID="RadioButton1" runat="server" Text="Issue" GroupName="gg" />
         &nbsp;
-        <asp:RadioButton ID="RadioButton2" runat="server" Text="Received" />
+        <asp:RadioButton ID="RadioButton2" runat="server" Text="Received" GroupName="gg" />
         <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp; Transaction Quantity&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp; Transaction Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
