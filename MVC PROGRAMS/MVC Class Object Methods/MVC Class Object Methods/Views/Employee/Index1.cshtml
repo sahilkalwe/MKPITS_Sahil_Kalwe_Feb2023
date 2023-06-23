@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Employees</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h2>Employee Details</h2>
+@{
+    string Empname = "Aashish Lilhare";
+    int EmpID = 21;
+    string EmpDesignation = "Deputy Manager";
+    int EmpAge = 21;
+    int EmpPhone = 76777567;
+    int EmpSalary = 32000;
+    String EmpCompanyName = "Fendahl CTRM Technology";
+
+}
+
+<p> Employee Name : @Empname</p>
+<p> Employee ID  : @EmpID</p>
+<p> Employee Designation : @EmpDesignation</p>
+<p> Employee Age  : @EmpAge</p>
+<p> Employee Phone : @EmpPhone</p>
+<p> Employee Salary : @EmpSalary</p>
+<p> Employee CompanyName : @EmpCompanyName</p>
+
+
+
+
+<p>@DateTime.Now</p>
+<p> @DateTime.IsLeapYear(2022)</p>
+
+<p>Last Week This Time:@(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+
+<p>Last Week:@DateTime.Now-TimeSpan.FromDays(7)</p>
+
+
+
+
+<a href="mailto:Support@contoso.com">Support@contoso.com</a>
+
+@{
+    var aashish = new Std("Rita Ingole", 22);
+}
+
+<p>Age@(aashish.Age)</p>
+<p>Name@(aashish.Name)</p>

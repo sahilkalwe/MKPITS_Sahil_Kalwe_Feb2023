@@ -24,7 +24,7 @@
                          </tr>
          <tr align ="center">
              <td>
-                 <a style="border=1;color:white;text-decoration:none; padding:10px;border-radius:10px;background-color:green;"href="cart.aspx">Add TO Cart</a>
+                 <a style="border=1;color:white;text-decoration:none; padding:10px;border-radius:10px;background-color:green;"href='<%# Eval("prodid","cart.aspx?prodid={0}")  %>'>Add TO Cart</a>
 
                                 &nbsp;&nbsp;
     <a style="border=1;color:white;text-decoration:none;

@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome Customers</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h2>Customer Details</h2>
+@{
+    string Custname = "Tanmay";
+    int CustID = 2;
+    string CustDesignation = "Manager";
+    int CustomerAge = 29;
+    int CustomerPhone = 767567;
+
+}
+
+<p> Customer Name : @Custname</p>
+<p> Customer ID  : @CustID</p>
+<p> Customer Designation : @CustDesignation</p>
+<p> Customer Age  : @CustomerAge</p>
+<p> Customer Phone : @CustomerPhone</p>
+
+
+
+
+<p>@DateTime.Now</p>
+<p> @DateTime.IsLeapYear(2022)</p>
+
+<p>Last Week This Time:@(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+
+<p>Last Week:@DateTime.Now-TimeSpan.FromDays(7)</p>
+
+
+
+
+<a href="mailto:Support@contoso.com">Support@contoso.com</a>
+
+@{
+    var tanmay = new Std("Trupti kawale", 21);
+}
+
+<p>Age@(tanmay.Age)</p>
+<p>Name@(tanmay.Name)</p>
