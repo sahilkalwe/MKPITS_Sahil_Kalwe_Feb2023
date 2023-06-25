@@ -12,7 +12,46 @@
 <br>
 <br>
 @Html.Raw("<span> Hello World</span>")
+<br></br>
 
 
+@{
+    var quote = "The Future depends on what you do today -Mahatma Gandhi";
+
+}
 
 
+<p>@quote</p>
+
+<br>
+@{
+    quote = "Hate cannot drive out there, only love can do that -Martin Luther King, Jr.";
+}
+
+<p>@quote</p>
+
+<br></br>
+
+
+@{
+
+    var inCsharp = true;
+    <p>Now In HTML,was in C# @inCsharp</p>
+}
+
+
+@*@for (var i = 0; i < Student.Length; i++)
+{
+    var Student =Student[i];
+    <text>Name: @Student.name</text>
+}*@
+
+@{ 
+    string[] people = { "Jani", "Hege", "Kai", "Jim" };
+    }
+
+   @for (var i = 0; i < people.Length; i++)
+   {
+       var person = people[i];
+    <text>Name: @person <br /></text>
+   }
