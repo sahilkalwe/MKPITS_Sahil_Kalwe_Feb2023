@@ -35,6 +35,34 @@ namespace MVC_website_Making_24_6_23.Controllers
             return View();
         }
 
+        public IActionResult Aboutus()
+        {
+            return View();
+        }
+
+
+        public IActionResult Capabilities()
+        {
+            return View();
+        }
+
+
+        public IActionResult Sectors()
+        {
+            return View();
+        }
+
+        public IActionResult SoftwareAndServices()
+        {
+            return View();
+        }
+        public IActionResult Home()
+        {
+            return View();
+        }
+
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

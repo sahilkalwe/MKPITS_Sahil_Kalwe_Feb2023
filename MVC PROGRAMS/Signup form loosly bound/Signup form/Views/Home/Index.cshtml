@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <b>Name:</b>
+    @Html.TextBox("Name","Enter Name",new {style="color:red"})
+
+}
