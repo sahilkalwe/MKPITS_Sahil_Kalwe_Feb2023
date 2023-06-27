@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewBag.Title = "Index";
+
+}
+@*<h2>Calculate</h2>*@
+
+@model even_odd.Models.evenodd
+@using(Html.BeginForm("Index","evenodd",FormMethod.Post))
+{
+    <H1>Find Even Odd</H1>
+    <b>Enter Number</b> @Html.TextBoxFor(eo =>eo.num1,new
+        {
+            @Value="Enter Number",
+            @Class="Red",
+
+        })
+        <br/>
+        <br/>
+        <input type ="submit" value="Check"/>
+}
+<hr></hr>
+
+<h3> Result</h3>
+Result:@ViewBag.result
+<br/>
+<br/>

@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Index";
+}
+<div class="Jumboron">
+    <h1> ASP.NET</h1>
+    <p class="lead"> Asp.net is a free web framework for building great web sites and web applications using HTML,CSS, and Javascript </p>
+<p><a href "https://asp.net" class="btn btn-primary btn-1g">Learn More &raquo;</a></p>
+
+</div>
+
+@model Using_Checkbox.Models.UserModel
+@using (Html.BeginForm("Index","User",FormMethod.Post))
+{
+    <h1>User Details</h1>
+    <b>Want Additional Benifits: </b>
+    <br/>
+    <span> Tea:</span> @Html.CheckBox("Tea",true)
+    <hr></hr>
+    <hr></hr>
+    <br>
+<span> Loundry:</span> @Html.CheckBox("Loundry",false)
+<br>
+    <hr></hr>
+    <hr></hr>
+<span> Breakfast:</span> @Html.CheckBox("Breakfast",false)
+<br>
+ <hr></hr>
+    <hr></hr>
+<input type ="Submit" value="Submit"/>
+<br/>
+    <hr></hr>
+    <hr></hr>
+
+}
+
+<h4>You Selected</h4>
+<b>Tea:</b>@ViewBag.Tea
+<br />
+<b>Loundry:</b>@ViewBag.Loundry
+<br />
+<b>Breakfast:</b>@ViewBag.Breakfast
