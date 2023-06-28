@@ -2,4 +2,30 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    
 }
+
+@model arithmatic_operations.Models.Operation
+@using (Html.BeginForm("Index", "Operation", FormMethod.Post))
+{
+
+    <b>Want calculation: </b>
+    <br />
+    <span>number 1: </span> @Html.TextBoxFor(m => m.number1)
+    <br />
+    <span>number 2: </span> @Html.TextBoxFor(m => m.number2)
+    <span>add: </span> @Html.CheckBoxFor(m => m.add, true)
+    <span> | Substract: </span> @Html.CheckBoxFor(m => m.substract, false)
+    <span> | Multiply: </span> @Html.CheckBoxFor(m => m.multiply, false)
+    <br />
+    <input type="submit" value="Check" />
+
+}
+
+<h4>Calculation result</h4>
+<b>addition : </b>@ViewBag.result1
+<br />
+<b>Substraction: </b>@ViewBag.result2
+<br />
+<b>Multiplication: </b>@ViewBag.result3
+

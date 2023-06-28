@@ -1,8 +1,8 @@
-﻿using arithmatic_operations.Models;
+﻿using BankTransaction.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace arithmatic_operations.Controllers
+namespace BankTransaction.Controllers
 {
     public class HomeController : Controller
     {
@@ -17,7 +17,6 @@ namespace arithmatic_operations.Controllers
         {
             return View();
         }
-       
 
         public IActionResult Privacy()
         {

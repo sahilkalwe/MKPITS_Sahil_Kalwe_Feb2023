@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<b><h1 align="center">Bank Transaction Details</h1></b>
+<hr>
+<hr>
+@model BankTransaction.Models.Transaction
+@using(Html.BeginForm("Index","Transaction",FormMethod.Post))
+{
+    <h1>Bank Details</h1>
+    <br>
+    <span>Enter Customer Name:  </span>@Html.TextBoxFor(m=>m.);
+    <br>
+    <br>
+    <span> Deposit   </span>@Html.RadioButtonFor(m=>m.type,"Deposit");
+    <span> |Withdrawl  </span>@Html.RadioButtonFor(m=>m.type,"Withdrawl");
+    <br>
+    <br>
+    <span>Enter Amount: </span>@Html.TextBoxFor(m=>m.amount);
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <h1>Account Details</h1>
+    <br>
+    <h5>Customer Name:</h5>@ViewBag.custanme
+    <br>
+    <h5>Your Total Balance Is:</h5>@ViewBag.TotalBalance
+    <br>
+    <br>
+
+
+}

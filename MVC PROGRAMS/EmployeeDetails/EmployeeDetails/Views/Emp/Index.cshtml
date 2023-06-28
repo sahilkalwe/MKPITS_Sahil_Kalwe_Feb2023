@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="text-center">
+    <h1>Employee Details</h1>
+
+</div>
+@model EmployeeDetails.Models.Emp
+@using(Html.BeginForm("Index","Emp",FormMethod.Post))
+{
+    <h1><b>Employee Details</b></h1>
+    <br />
+    <hr><hr/>
+    <span>Enter Name Of Employee:</span>@Html.TextBoxFor(m=>m.empname)
+    <br/>
+    <br/>
+    <span>Manager</span>@Html.RadioButtonFor(m=>m.designation,"Manager")
+    <span>Clerk</span>@Html.RadioButtonFor(m=>m.designation,"Clerk")
+    <span>Peon</span>@Html.RadioButtonFor(m=>m.designation,"Peon")
+    <br />
+    <br />
+    <span>Enter Basic Salary:</span> @Html.TextBoxFor(m=>m.basicsalary)
+    <br />
+    <br />
+    
+    <input type ="Submit" value="Calculate Salary"/>
+    <hr>
+    <hr />
+    <h1>Employee Salary Details</h1>
+    <hr><hr/>
+    <b>Employee Name:</b> @ViewBag.empname
+    <br>
+    <b>Employee's Basic Salaray:</b>@ViewBag.basicsalary
+    <br>
+    <b>Employee's Da:</b>@ViewBag.da
+    <br>
+    <b>Employee's Hra:</b>@ViewBag.hra
+    <br>
+    <b>Employee's Ta:</b>@ViewBag.ta
+    <br>
+    <b>Employee's Total Salary:</b>@ViewBag.totalsalary
+
+}
