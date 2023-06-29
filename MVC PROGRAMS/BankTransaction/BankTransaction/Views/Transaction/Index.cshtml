@@ -11,7 +11,7 @@
 {
     <h1>Bank Details</h1>
     <br>
-    <span>Enter Customer Name:  </span>@Html.TextBoxFor(m=>m.);
+    <span>Enter Customer Name:  </span>@Html.TextBoxFor(m=>m.custname)
     <br>
     <br>
     <span> Deposit   </span>@Html.RadioButtonFor(m=>m.type,"Deposit");
@@ -21,11 +21,13 @@
     <span>Enter Amount: </span>@Html.TextBoxFor(m=>m.amount);
     <br>
     <br>
+    <input type="submit" value="Calculate"></input>
+    <br>
     <hr>
     <hr>
     <h1>Account Details</h1>
     <br>
-    <h5>Customer Name:</h5>@ViewBag.custanme
+    <h5>Customer Name:</h5>@ViewBag.custname
     <br>
     <h5>Your Total Balance Is:</h5>@ViewBag.TotalBalance
     <br>

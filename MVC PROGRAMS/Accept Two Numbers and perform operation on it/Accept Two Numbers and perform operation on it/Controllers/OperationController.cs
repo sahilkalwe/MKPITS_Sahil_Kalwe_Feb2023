@@ -15,7 +15,6 @@ namespace Accept_Two_Numbers_and_perform_operation_on_it.Controllers
             ViewBag.result = o.result;
             ViewBag.n1 = o.n1;
             ViewBag.n2 = o.n2;
-            //char op;
             if (o.op == '+')
             {
                 ViewBag.result = o.n1 + o.n2;
@@ -28,9 +27,13 @@ namespace Accept_Two_Numbers_and_perform_operation_on_it.Controllers
             {
                 ViewBag.result = o.n1 * o.n2;
             }
-            if (o.op == '/')
+            else if (o.op == '/')
             {
                 ViewBag.result = o.n1 / o.n2;
+            }
+            else
+            {
+                ViewBag.result = "Invalid Opeartion";
             }
             return View();
         }

@@ -2,13 +2,13 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    ViewBag.Title = "Opration";
-    }
+    
+}
 
-    @model Accept_Two_Numbers_and_perform_operation_on_it.Models.Opeartion
+    @model ArithematicOperations.Models.Opeartion
     <h1>Find Operation</h1>
 
-    @using(Html.BeginForm("Index","Operator",FormMethod.Post))
+    @using (Html.BeginForm("Index","Opeartion",FormMethod.Post))
     {
         <b>Enter Number 1</b>
         @Html.TextBoxFor(o=>o.n1)
@@ -26,14 +26,9 @@
         <br />
         <input type="submit" value="Check"/>
 
-
-
     }
-    <style>
-    .blue {
-        color: Red
-    }
-</style>
+   
+
 n1:@ViewBag.n1
 <br>
 n2:@ViewBag.n2<br/>

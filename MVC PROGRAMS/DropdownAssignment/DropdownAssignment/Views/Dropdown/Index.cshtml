@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model DropdownAssignment.Models.Dropdown
+
+@using(Html.BeginForm("Index","Dropdown",FormMethod.Post))
+{
+    <h1>Signup Form</h1>
+    <hr>
+    <hr>
+    <b> Enter Username:</b> @Html.TextBoxFor(m=>m.usernmae)
+    <br>
+   <span> Gender : <b>Male</b>@Html.RadioButtonFor(m=>m.Gender,"Male")
+        <b>Female</b>  @Html.RadioButtonFor(m=>m.Gender,"Female")</span>
+    <br>
+    <br>
+   <span>Dotnet</span>
+   @Html.CheckBoxFor(m=>m.course,"detnet")
+   <span> | Java</span> 
+   @Html.CheckBoxFor(m=>m.course,"java")
+    <br>
+    <br>
+    <b>City : </b>@Html.DropDownListFor(m=>m.getCity,new SelectList(Enum.GetValues(typeof(City))),"Select")
+    <br>
+    <br>
+    <input type="Submit" value="Signup"></input>
+    <br>
+    <hr>
+    <hr>
+}
+
+<h1> User Details</h1>
+<hr>
+<hr>
+<b>Username:</b>@ViewBag.username
+<br>
+<br>
+<b>Gender:</b>@ViewBag.Gender
+<br>
+<br>
+<b>Course:</b>@ViewBag.res
+<br>
+<br>
+<b>City:</b>@ViewBag.City
+<br>
+<br>
+
