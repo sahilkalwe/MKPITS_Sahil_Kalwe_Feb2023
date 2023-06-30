@@ -1,8 +1,8 @@
-﻿using DropdownAssignment.Models;
+﻿using Dropdown_Assignment.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DropdownAssignment.Controllers
+namespace Dropdown_Assignment.Controllers
 {
     public class HomeController : Controller
     {

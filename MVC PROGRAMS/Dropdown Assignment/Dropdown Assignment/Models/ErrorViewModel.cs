@@ -1,4 +1,4 @@
-namespace DropdownAssignment.Models
+namespace Dropdown_Assignment.Models
 {
     public class ErrorViewModel
     {
