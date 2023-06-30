@@ -10,7 +10,7 @@ namespace fendahl_3
 {
     public class InvoiceDetails
     {
-        private static string connectionString = "server=LAPTOP-AQT0G55D\\SQLEXPRESS01; integrated security=true;database=fendahl3;";
+        private static string connectionString = "server=LAPTOP-AQT0G55D\\SQLEXPRESS01; integrated security=true;database=Fendahl 3;";
 
         public static SqlConnection GetConnection()
         {
@@ -41,7 +41,7 @@ namespace fendahl_3
         }
         public static DataSet GetTableProductName(String ProductCategory)
         {
-            string query = "select p.productid,p.ProductName from TableProduct p inner join tableproductcategory t on p.productid=t.productcategoryid where t.productcategory=@productcategory";
+            string query = "select * from TableProduct p inner join TableProductCategory t on p.ProductCategoryID=t.productcategoryid where t.ProductCategory=@ProductCategory";
             SqlConnection con = GetConnection();
             DataSet ds = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(query, con);
@@ -59,6 +59,37 @@ namespace fendahl_3
             da.Fill(ds, "TableProduct");
             return ds;
         }
+        public static DataSet GetAvailableQuantity(String ProductName)
+        {
+            SqlConnection con = GetConnection();
+            string query = "Select AvailableQuantity From TableProduct Where ProductName=@ProductName";
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(query, con);
+            da.SelectCommand.Parameters.AddWithValue("@ProductName", ProductName);
+            da.Fill(ds, "TableProduct");
+            return ds;
+        }
+        public static DataSet GetTotalQuantity(String ProductName)
+        {
+            SqlConnection con = GetConnection();
+            string query = "Select TotalQuantity From TableProduct Where ProductName=@ProductName";
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(query, con);
+            da.SelectCommand.Parameters.AddWithValue("@ProductName", ProductName);
+            da.Fill(ds, "TableProduct");
+            return ds;
+        }
+        public static DataSet GetGST(String ProductCategory)
+        {
+            SqlConnection con = GetConnection();
+            string query = "select c.cgst,c.sgst from TableProductGSTDetails c inner join TableProductCategory s on c.GstDetailName=s.ProductCategory where s.ProductCategory=@ProductCategory";
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(query, con);
+            da.SelectCommand.Parameters.AddWithValue("@ProductCategory", ProductCategory);
+            da.Fill(ds, "TableProduct");
+            return ds;
+        }
+
 
 
 

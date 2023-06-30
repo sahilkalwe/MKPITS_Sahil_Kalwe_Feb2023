@@ -7,7 +7,7 @@
 
 @using (Html.BeginForm("Index","Dropdown",FormMethod.Post))
 {
-    <h1 align="center">Signup Details</h1>
+    <h1>Signup Details</h1>
     <hr>
     <hr>
 
@@ -20,8 +20,8 @@
 <br>
 <br>
 <span>Course : </span>
-<span> |DotNet</span> @Html.CheckBoxFor(m => m.Course, "Dotnet")
-    <span> |Java</span> @Html.CheckBoxFor(m=>m.Course,"Java")
+<span> |DotNet</span> @Html.CheckBoxFor(m => m.Course, true)
+    <span> |Java</span> @Html.CheckBoxFor(m=>m.Course1,false)
     <br>
     <br>
     <span>City : </span>@Html.DropDownListFor(m=>m.getcity,new SelectList(Enum.GetValues(typeof(City))),"----Select City----")
@@ -32,20 +32,16 @@
     <br>
     <hr>
     <hr>
-    <b> User Details :</b>
+    <h1> User Details :</h1>
     <hr>
     <hr>
     <span>Username :</span>@ViewBag.Username
        <br>
-    <br>
     <span>Gender :</span> @ViewBag.Gender
        <br>
-    <br>
-    <span>Course :</span>@ViewBag.Course
-    <br>
+    <span>Course :</span>@ViewBag.res;
     <br>
     <span>City :</span>@ViewBag.City
-    <br>
     <br>
 
 
