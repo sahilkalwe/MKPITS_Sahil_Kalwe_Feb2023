@@ -15,37 +15,40 @@ namespace fendahl_3
 {
     public partial class Form1 : Form
     {
-        #region ========== ENUM ==========
-        public enum Gender { Male, Female, Others }
-        public enum Pay { Cash, Emi }
 
+        enum Gender { Male, Female, Others }
         Gender gender;
-        Pay pay;
-        #endregion
 
-        #region  ========== CONSTRUCTOR ==========
+        enum Pay { Cash,Emi}
+        Pay pay;
         public Form1()
         {
-            this.InitializeComponent();
-            this.dateTimePicker1.Value = DateTime.Today;
-            this.dateTimePicker1.MinDate = DateTime.Today;
+            InitializeComponent();
+            dateTimePicker1.Value = DateTime.Today;
+            dateTimePicker1.MinDate = DateTime.Today;
         }
-        #endregion
 
-        #region  ========== FORM EVENT ==========
+        #region ===== FORM EVENT =====
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Error Occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Please try again","Confirm",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
             DataSet ds = InvoiceDetails.GetProductCategory();
-            this.comboBox1.DataSource = ds.Tables[0];
-            this.comboBox1.DisplayMember = "ProductCategory";
-            this.comboBox1.ValueMember = "ProductCategoryID";            
+            comboBox1.DataSource = ds.Tables[0];
+            comboBox1.DisplayMember = "ProductCategory";
+            comboBox1.ValueMember = "ProductCategoryID";
+
         }
         #endregion
 
-        #region ========== CONTROL EVENTS ==========
+
+        #region ===== CONTROL EVENTS =====
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
+            
+
             if (!Char.IsControl(e.KeyChar) && !Char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
@@ -98,7 +101,16 @@ namespace fendahl_3
             {
                 gender = Gender.Others;
             }
-        }      
+        }
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
@@ -108,23 +120,30 @@ namespace fendahl_3
             }
             else
             {
-                this.CalculateTotal();
+                CalculateTotal();
             }
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
-            this.pay = Pay.Cash;
+            pay = Pay.Cash;
             if (radioButton1.Checked)
             {
-                this.textBox16.Text = textBox11.Text;
+                textBox16.Text = textBox11.Text;
             }
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             pay = Pay.Emi;
+
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -164,7 +183,12 @@ namespace fendahl_3
         private void radioButton1_Leave(object sender, EventArgs e)
         {
             textBox16.Text = "";
-        }    
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
@@ -202,10 +226,8 @@ namespace fendahl_3
         }
         #endregion
 
-        #region ========== PUBLIC METHOD ==========
-        /// <summary>
-        /// This method is use for Calculate Total amount.
-        /// </summary>
+
+        #region ===== PUBLIC METHOD =====
         public void CalculateTotal()
         {
             double Total = Convert.ToDouble(textBox4.Text) * Convert.ToDouble(textBox5.Text);
@@ -216,9 +238,16 @@ namespace fendahl_3
             textBox10.Text = SGST.ToString();
             double NetAmount = Convert.ToDouble(textBox6.Text) + Convert.ToDouble(textBox9.Text) + Convert.ToDouble(textBox10.Text);
             textBox11.Text = NetAmount.ToString();
+
         } 
         #endregion
 
+
     }
-}
+
+        //private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+
+        //}
+    }
 

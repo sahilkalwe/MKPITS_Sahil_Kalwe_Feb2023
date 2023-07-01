@@ -48,4 +48,14 @@ insert into TableInvoiceDetails values (9,10,'anand','Palliwar','Male','12345678
 
 
 select * from TableInvoiceDetails
-select p.productid,p.ProductName from TableProduct p inner join tableproductcategory t on p.productid=t.productcategoryid where t.productcategory='Laptop';
+
+
+
+select * from TableProductGSTDetails
+
+Select * from TableProductCategory
+select * from TableProduct
+select * from TableProduct p inner join TableProductCategory t on p.ProductCategoryID=t.productcategoryid where t.ProductCategory='Laptop'
+Select AvailableQuantity From TableProduct Where ProductName='HP'
+
+select c.cgst,c.sgst from TableProductGSTDetails c inner join TableProductCategory s on c.GstDetailName=s.ProductCategory where s.ProductCategory='Laptop'

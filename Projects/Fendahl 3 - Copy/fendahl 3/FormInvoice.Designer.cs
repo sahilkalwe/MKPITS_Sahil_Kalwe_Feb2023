@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ButtonSave = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
@@ -95,7 +95,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.ButtonSave);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.groupBox6);
             this.panel1.Controls.Add(this.groupBox5);
@@ -107,7 +107,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(853, 736);
             this.panel1.TabIndex = 0;
-            
             // 
             // label19
             // 
@@ -117,18 +116,17 @@
             this.label19.Size = new System.Drawing.Size(95, 16);
             this.label19.TabIndex = 8;
             this.label19.Text = "Invoice Details";
-            
             // 
-            // button2
+            // ButtonSave
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(682, 691);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(139, 32);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Save";
-            this.button2.UseVisualStyleBackColor = false;
+            this.ButtonSave.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ButtonSave.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSave.Location = new System.Drawing.Point(682, 691);
+            this.ButtonSave.Name = "ButtonSave";
+            this.ButtonSave.Size = new System.Drawing.Size(139, 32);
+            this.ButtonSave.TabIndex = 7;
+            this.ButtonSave.Text = "Save";
+            this.ButtonSave.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -166,7 +164,6 @@
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(245, 25);
             this.textBox12.TabIndex = 5;
-            
             // 
             // textBox11
             // 
@@ -416,7 +413,6 @@
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(229, 25);
             this.textBox16.TabIndex = 11;
-            
             this.textBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox16_KeyPress);
             // 
             // textBox15
@@ -427,7 +423,6 @@
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(231, 25);
             this.textBox15.TabIndex = 10;
-           
             this.textBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // radioButton5
@@ -695,8 +690,10 @@
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(942, 734);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Invoice Details";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -768,7 +765,7 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ButtonSave;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label19;
     }
