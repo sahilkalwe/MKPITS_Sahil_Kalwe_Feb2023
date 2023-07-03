@@ -155,7 +155,7 @@
             this.MinimizeBox = false;
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Register";
+            this.Text = " ";
             this.groupBoxRegistrationForm.ResumeLayout(false);
             this.groupBoxRegistrationForm.PerformLayout();
             this.ResumeLayout(false);

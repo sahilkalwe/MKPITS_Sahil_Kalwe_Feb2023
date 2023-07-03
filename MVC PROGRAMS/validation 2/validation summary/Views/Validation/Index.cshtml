@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+@model validation_summary.Models.Validation
+<h2>Student Details</h2>
+<hr>
+<hr>
+@using (Html.BeginForm("Index","Validation","FormMethod.Post"))
+{
+    <ol>
+        <li>
+            @Html.LabelFor(m=>m.Name)
+            @Html.TextBoxFor(m=>m.Name)
+            @Html.ValidationMessageFor(m=>m.Name)
+        </li>
+        <br>
+        <br>
+        <li>
+            @Html.LabelFor(m=>m.Email)
+            @Html.TextBoxFor(m=>m.Email)
+            @Html.ValidationMessageFor(m=>m.Email)
+        </li>
+        <br>
+        <br>
+        <li>
+            @Html.LabelFor(m=>m.ConformEmail)
+            @Html.TextBoxFor(m=>m.ConformEmail)
+            @Html.ValidationMessageFor(m=>m.ConformEmail)
+        </li>
+        <br>
+        <br>
+        <li>
+            @Html.LabelFor(m=>m.Age)
+            @Html.TextBoxFor(m=>m.Age)
+            @Html.ValidationMessageFor(m=>m.Age)
+        </li>
+        <br>
+        <br>
+    </ol>
+    <input type="submit" value="Save Student Details"></input>
+    <br>
+<br>
+<h3 style="color:green">Student Details</h3>
+<hr>
+<hr>
+<h4 style="color:green">
+    <b>Name:@ViewBag.Name</b>
+        <br>
+        <br>
+        <b>Email:@ViewBag.Email</b>
+        <br>
+        <br>
+        <b>Age:@ViewBag.Age</b>
+</h4>
+
+
+
+}
+
