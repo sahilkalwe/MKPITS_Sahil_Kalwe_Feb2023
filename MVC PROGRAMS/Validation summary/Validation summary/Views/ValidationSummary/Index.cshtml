@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Validation_summary.Models.ValidationSummary
+<div class=" Jumbotron">
+<h1>User Entry form</h1>
+</div>
+<div class="row">
+    @using(Html.BeginForm("Index","ValidationSummary",FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>User Name:</td>
+                <td>@Html.TextBoxFor(m=>m.UserName)</td>
+            </tr>
+            <br>
+        <br>
+            <tr>
+                <td>Mobile Number:</td>
+                <td>@Html.TextBoxFor(m=>m.MobileNumber)</td>
+                </tr>
+            <br>
+            <br>
+                <tr>
+                    <td colspan="2"><input type="submit" value="submit"/><td/>
+                        </tr>
+            <br>
+            <br>
+        </table>
+    @Html.ValidationSummary(false,"",new{@class="alert-danger"})
+    }
+<div/>
+<h1>User Details</h1>
+<hr>
+<hr>
+<b>UserName :</b>@ViewBag.Username
+<br>
+<br>
+    <b>Mobile Number :</b>@ViewBag.MobileNumber
