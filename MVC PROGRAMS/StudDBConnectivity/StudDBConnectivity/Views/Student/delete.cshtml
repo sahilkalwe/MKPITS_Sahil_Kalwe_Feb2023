@@ -1,0 +1,64 @@
+﻿@model StudDBConnectivity.Models.StudModel
+
+@{
+    ViewBag.Title = "delete";
+}
+
+<h2>delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>StudModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudRollNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudRollNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudDesignation)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

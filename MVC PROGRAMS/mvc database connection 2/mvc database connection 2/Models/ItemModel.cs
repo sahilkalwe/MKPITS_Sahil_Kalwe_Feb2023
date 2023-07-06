@@ -10,6 +10,6 @@ namespace mvc_database_connection_2.Models
         public int ID { get; set; }
         public string Name { get; set; }
         public string Category { get; set; }
-        public decimal price { get; set; }
+        public decimal Price { get; set; }
     }
 }

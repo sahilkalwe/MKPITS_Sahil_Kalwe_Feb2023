@@ -1,0 +1,58 @@
+﻿@model StudDBConnectivity.Models.StudModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StudModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudRollNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudRollNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudDesignation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
