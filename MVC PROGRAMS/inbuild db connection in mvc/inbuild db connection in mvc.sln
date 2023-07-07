@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inbuild db connection in mvc", "inbuild db connection in mvc\inbuild db connection in mvc.csproj", "{839740D3-55B5-4538-8191-49B8318F88EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839740D3-55B5-4538-8191-49B8318F88EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839740D3-55B5-4538-8191-49B8318F88EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839740D3-55B5-4538-8191-49B8318F88EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839740D3-55B5-4538-8191-49B8318F88EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E836F5E-0BFC-418C-B8B7-2CDE6031DE31}
+	EndGlobalSection
+EndGlobal
