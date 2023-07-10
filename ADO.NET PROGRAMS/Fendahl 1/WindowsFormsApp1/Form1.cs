@@ -25,12 +25,6 @@ namespace WindowsFormsApp1
             dateTimePicker1.Value = DateTime.Today;
         }
         Nationality nationality;
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             Clearall();
@@ -52,12 +46,6 @@ namespace WindowsFormsApp1
             textBox1.Text = "";
             textBox2.Text = "";
         }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             DataSet ds = ProductStore.GetTableProductCategory();
@@ -93,11 +81,6 @@ namespace WindowsFormsApp1
             textBox3.Text = cgst.ToString();
             textBox4.Text = sgst.ToString();
             textBox5.Text = tgst.ToString();
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -166,32 +149,15 @@ namespace WindowsFormsApp1
             double IGSTAmount = Convert.ToDouble(textBox9.Text) * (Convert.ToDouble(textBox5.Text) / 100.0);
             textBox8.Text = IGSTAmount.ToString();
 
-
-          /*  double NETAmount = 0;
-            if (nationality == 0)
-            {
-                NETAmount = Convert.ToDouble(textBox11.Text) + Convert.ToDouble(textBox8.Text);
-
-            }
-            else
-            {
-                NETAmount = Convert.ToDouble(textBox11.Text) + Convert.ToDouble(textBox8.Text);
-            }*/
-
-
-
             double NETAmount = Convert.ToDouble(textBox8.Text) + Convert.ToDouble(textBox11.Text);
             textBox12.Text = NETAmount.ToString();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             CheckUserDetails();
             Clearall();
 
         }
-
-
         public void CheckUserDetails()
         {
             if (textBox1.Text == "" || textBox2.Text == "")
@@ -206,8 +172,6 @@ namespace WindowsFormsApp1
             }
             else
             {
-
-
                 string result = ProductStore.saveTableInvoiceDetails(textBox1.Text, Convert.ToInt32(textBox2.Text),
                 Convert.ToInt32(comboBox1.SelectedValue),
                 Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(nationality),
@@ -217,10 +181,8 @@ namespace WindowsFormsApp1
                 Convert.ToDecimal(textBox10.Text), Convert.ToDecimal(textBox11.Text),
                 Convert.ToDecimal(textBox12.Text), Convert.ToDecimal(textBox8.Text));
                 MessageBox.Show(result);
-
             }
         }
-
         private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
         {
             nationality = Nationality.NRI;
@@ -229,25 +191,6 @@ namespace WindowsFormsApp1
             textBox5.Text = igst.ToString();
             Calculate_Total();
         }
-
-        private void textBox11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox12_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox8_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-    } }
+    } 
+}
 
