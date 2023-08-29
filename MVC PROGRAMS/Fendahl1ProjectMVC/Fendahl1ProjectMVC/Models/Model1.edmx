@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="fendahldbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TableInvoiceDetails">
+          <Key>
+            <PropertyRef Name="Invoice_Detail_ID" />
+          </Key>
+          <Property Name="Invoice_Detail_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Customer_Name" Type="varchar" MaxLength="500" />
+          <Property Name="Customer_Contact" Type="varchar" MaxLength="15" />
+          <Property Name="Product_Category_ID" Type="int" />
+          <Property Name="Product_ID" Type="int" />
+          <Property Name="Resedential_Type_ID" Type="int" />
+          <Property Name="Invoice_Date" Type="datetime" />
+          <Property Name="Quantity" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="CGST" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="SGST" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="IGST" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="CGST_Value" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="SGST_Value" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="IGST_Value" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Total_Amount" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="TableProduct">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="ProductTypeID" Type="int" />
+          <Property Name="ProductName" Type="varchar" MaxLength="500" />
+          <Property Name="ProductPrice" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="TableProductCategory">
+          <Key>
+            <PropertyRef Name="Product_Category_ID" />
+          </Key>
+          <Property Name="Product_Category_ID" Type="int" Nullable="false" />
+          <Property Name="Product_Type_Name" Type="varchar" MaxLength="500" />
+          <Property Name="Product_Gst_ID" Type="int" />
+        </EntityType>
+        <EntityType Name="TableProductGSTDetails">
+          <Key>
+            <PropertyRef Name="Product_Gst_ID" />
+          </Key>
+          <Property Name="Product_Gst_ID" Type="int" Nullable="false" />
+          <Property Name="Gst_Detail_Name" Type="varchar" MaxLength="500" />
+          <Property Name="CGST" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="SGST" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="IGST" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <Association Name="p1">
+          <End Role="TableProductCategory" Type="Self.TableProductCategory" Multiplicity="0..1" />
+          <End Role="TableInvoiceDetails" Type="Self.TableInvoiceDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProductCategory">
+              <PropertyRef Name="Product_Category_ID" />
+            </Principal>
+            <Dependent Role="TableInvoiceDetails">
+              <PropertyRef Name="Product_Category_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="p2">
+          <End Role="TableProduct" Type="Self.TableProduct" Multiplicity="0..1" />
+          <End Role="TableInvoiceDetails" Type="Self.TableInvoiceDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProduct">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="TableInvoiceDetails">
+              <PropertyRef Name="Product_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="p3">
+          <End Role="TableProductCategory" Type="Self.TableProductCategory" Multiplicity="0..1" />
+          <End Role="TableProduct" Type="Self.TableProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProductCategory">
+              <PropertyRef Name="Product_Category_ID" />
+            </Principal>
+            <Dependent Role="TableProduct">
+              <PropertyRef Name="ProductTypeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="p4">
+          <End Role="TableProductGSTDetails" Type="Self.TableProductGSTDetails" Multiplicity="0..1" />
+          <End Role="TableProductCategory" Type="Self.TableProductCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProductGSTDetails">
+              <PropertyRef Name="Product_Gst_ID" />
+            </Principal>
+            <Dependent Role="TableProductCategory">
+              <PropertyRef Name="Product_Gst_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="fendahldbModelStoreContainer">
+          <EntitySet Name="TableInvoiceDetails" EntityType="Self.TableInvoiceDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TableProduct" EntityType="Self.TableProduct" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TableProductCategory" EntityType="Self.TableProductCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TableProductGSTDetails" EntityType="Self.TableProductGSTDetails" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="p1" Association="Self.p1">
+            <End Role="TableProductCategory" EntitySet="TableProductCategory" />
+            <End Role="TableInvoiceDetails" EntitySet="TableInvoiceDetails" />
+          </AssociationSet>
+          <AssociationSet Name="p2" Association="Self.p2">
+            <End Role="TableProduct" EntitySet="TableProduct" />
+            <End Role="TableInvoiceDetails" EntitySet="TableInvoiceDetails" />
+          </AssociationSet>
+          <AssociationSet Name="p3" Association="Self.p3">
+            <End Role="TableProductCategory" EntitySet="TableProductCategory" />
+            <End Role="TableProduct" EntitySet="TableProduct" />
+          </AssociationSet>
+          <AssociationSet Name="p4" Association="Self.p4">
+            <End Role="TableProductGSTDetails" EntitySet="TableProductGSTDetails" />
+            <End Role="TableProductCategory" EntitySet="TableProductCategory" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="fendahldbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TableInvoiceDetail">
+          <Key>
+            <PropertyRef Name="Invoice_Detail_ID" />
+          </Key>
+          <Property Name="Invoice_Detail_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Customer_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Customer_Contact" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Product_Category_ID" Type="Int32" />
+          <Property Name="Product_ID" Type="Int32" />
+          <Property Name="Resedential_Type_ID" Type="Int32" />
+          <Property Name="Invoice_Date" Type="DateTime" Precision="3" />
+          <Property Name="Quantity" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CGST" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="SGST" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="IGST" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CGST_Value" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="SGST_Value" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="IGST_Value" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Total_Amount" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="TableProductCategory" Relationship="Self.p1" FromRole="TableInvoiceDetails" ToRole="TableProductCategory" />
+          <NavigationProperty Name="TableProduct" Relationship="Self.p2" FromRole="TableInvoiceDetails" ToRole="TableProduct" />
+        </EntityType>
+        <EntityType Name="TableProduct">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="ProductTypeID" Type="Int32" />
+          <Property Name="ProductName" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="ProductPrice" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="TableInvoiceDetails" Relationship="Self.p2" FromRole="TableProduct" ToRole="TableInvoiceDetails" />
+          <NavigationProperty Name="TableProductCategory" Relationship="Self.p3" FromRole="TableProduct" ToRole="TableProductCategory" />
+        </EntityType>
+        <EntityType Name="TableProductCategory">
+          <Key>
+            <PropertyRef Name="Product_Category_ID" />
+          </Key>
+          <Property Name="Product_Category_ID" Type="Int32" Nullable="false" />
+          <Property Name="Product_Type_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Product_Gst_ID" Type="Int32" />
+          <NavigationProperty Name="TableInvoiceDetails" Relationship="Self.p1" FromRole="TableProductCategory" ToRole="TableInvoiceDetails" />
+          <NavigationProperty Name="TableProducts" Relationship="Self.p3" FromRole="TableProductCategory" ToRole="TableProduct" />
+          <NavigationProperty Name="TableProductGSTDetail" Relationship="Self.p4" FromRole="TableProductCategory" ToRole="TableProductGSTDetails" />
+        </EntityType>
+        <EntityType Name="TableProductGSTDetail">
+          <Key>
+            <PropertyRef Name="Product_Gst_ID" />
+          </Key>
+          <Property Name="Product_Gst_ID" Type="Int32" Nullable="false" />
+          <Property Name="Gst_Detail_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="CGST" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="SGST" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="IGST" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="TableProductCategories" Relationship="Self.p4" FromRole="TableProductGSTDetails" ToRole="TableProductCategory" />
+        </EntityType>
+        <Association Name="p1">
+          <End Role="TableProductCategory" Type="Self.TableProductCategory" Multiplicity="0..1" />
+          <End Role="TableInvoiceDetails" Type="Self.TableInvoiceDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProductCategory">
+              <PropertyRef Name="Product_Category_ID" />
+            </Principal>
+            <Dependent Role="TableInvoiceDetails">
+              <PropertyRef Name="Product_Category_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="p2">
+          <End Role="TableProduct" Type="Self.TableProduct" Multiplicity="0..1" />
+          <End Role="TableInvoiceDetails" Type="Self.TableInvoiceDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProduct">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="TableInvoiceDetails">
+              <PropertyRef Name="Product_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="p3">
+          <End Role="TableProductCategory" Type="Self.TableProductCategory" Multiplicity="0..1" />
+          <End Role="TableProduct" Type="Self.TableProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProductCategory">
+              <PropertyRef Name="Product_Category_ID" />
+            </Principal>
+            <Dependent Role="TableProduct">
+              <PropertyRef Name="ProductTypeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="p4">
+          <End Role="TableProductGSTDetails" Type="Self.TableProductGSTDetail" Multiplicity="0..1" />
+          <End Role="TableProductCategory" Type="Self.TableProductCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TableProductGSTDetails">
+              <PropertyRef Name="Product_Gst_ID" />
+            </Principal>
+            <Dependent Role="TableProductCategory">
+              <PropertyRef Name="Product_Gst_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="fendyl_pprojectbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TableInvoiceDetails" EntityType="Self.TableInvoiceDetail" />
+          <EntitySet Name="TableProducts" EntityType="Self.TableProduct" />
+          <EntitySet Name="TableProductCategories" EntityType="Self.TableProductCategory" />
+          <EntitySet Name="TableProductGSTDetails" EntityType="Self.TableProductGSTDetail" />
+          <AssociationSet Name="p1" Association="Self.p1">
+            <End Role="TableProductCategory" EntitySet="TableProductCategories" />
+            <End Role="TableInvoiceDetails" EntitySet="TableInvoiceDetails" />
+          </AssociationSet>
+          <AssociationSet Name="p2" Association="Self.p2">
+            <End Role="TableProduct" EntitySet="TableProducts" />
+            <End Role="TableInvoiceDetails" EntitySet="TableInvoiceDetails" />
+          </AssociationSet>
+          <AssociationSet Name="p3" Association="Self.p3">
+            <End Role="TableProductCategory" EntitySet="TableProductCategories" />
+            <End Role="TableProduct" EntitySet="TableProducts" />
+          </AssociationSet>
+          <AssociationSet Name="p4" Association="Self.p4">
+            <End Role="TableProductGSTDetails" EntitySet="TableProductGSTDetails" />
+            <End Role="TableProductCategory" EntitySet="TableProductCategories" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="fendahldbModelStoreContainer" CdmEntityContainer="fendyl_pprojectbEntities">
+          <EntitySetMapping Name="TableInvoiceDetails">
+            <EntityTypeMapping TypeName="fendahldbModel.TableInvoiceDetail">
+              <MappingFragment StoreEntitySet="TableInvoiceDetails">
+                <ScalarProperty Name="Invoice_Detail_ID" ColumnName="Invoice_Detail_ID" />
+                <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+                <ScalarProperty Name="Customer_Contact" ColumnName="Customer_Contact" />
+                <ScalarProperty Name="Product_Category_ID" ColumnName="Product_Category_ID" />
+                <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+                <ScalarProperty Name="Resedential_Type_ID" ColumnName="Resedential_Type_ID" />
+                <ScalarProperty Name="Invoice_Date" ColumnName="Invoice_Date" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="CGST" ColumnName="CGST" />
+                <ScalarProperty Name="SGST" ColumnName="SGST" />
+                <ScalarProperty Name="IGST" ColumnName="IGST" />
+                <ScalarProperty Name="CGST_Value" ColumnName="CGST_Value" />
+                <ScalarProperty Name="SGST_Value" ColumnName="SGST_Value" />
+                <ScalarProperty Name="IGST_Value" ColumnName="IGST_Value" />
+                <ScalarProperty Name="Total_Amount" ColumnName="Total_Amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TableProducts">
+            <EntityTypeMapping TypeName="fendahldbModel.TableProduct">
+              <MappingFragment StoreEntitySet="TableProduct">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TableProductCategories">
+            <EntityTypeMapping TypeName="fendahldbModel.TableProductCategory">
+              <MappingFragment StoreEntitySet="TableProductCategory">
+                <ScalarProperty Name="Product_Category_ID" ColumnName="Product_Category_ID" />
+                <ScalarProperty Name="Product_Type_Name" ColumnName="Product_Type_Name" />
+                <ScalarProperty Name="Product_Gst_ID" ColumnName="Product_Gst_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TableProductGSTDetails">
+            <EntityTypeMapping TypeName="fendahldbModel.TableProductGSTDetail">
+              <MappingFragment StoreEntitySet="TableProductGSTDetails">
+                <ScalarProperty Name="Product_Gst_ID" ColumnName="Product_Gst_ID" />
+                <ScalarProperty Name="Gst_Detail_Name" ColumnName="Gst_Detail_Name" />
+                <ScalarProperty Name="CGST" ColumnName="CGST" />
+                <ScalarProperty Name="SGST" ColumnName="SGST" />
+                <ScalarProperty Name="IGST" ColumnName="IGST" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

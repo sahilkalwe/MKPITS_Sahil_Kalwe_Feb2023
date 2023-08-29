@@ -1,0 +1,111 @@
+﻿
+@model Tuple<IEnumerable<SelectListItem>, IEnumerable<SelectListItem>>
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        loadItem();
+        $("#Category").change(function () {
+            loadItem();
+        });
+
+    
+
+    function loadItem() {
+        var catid = $("#Category").val();
+        //    alert(catid);
+        GetProduct(catid);
+       
+    }
+    function GetProduct(catid) {
+
+        $.get("/Home/getAllProducts", { catid: $("#Category").val() }, function (data) {
+            //  alert("catid " + catid);
+            $("#Product").empty();
+            $.each(data, function (index, row) {
+                $("#Product").append("<option value='" + row.ProductID + "'>" + row.Product_Name + "</option>")
+            });
+        });
+
+    }
+
+
+</script>
+
+
+
+
+
+<h2>Product Store</h2>
+<fieldset>
+    <legend>Customer Details</legend>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    Full Name: <input style="text-align:left" type="text" id="fullname"
+                                      name="fullname" class="form-control" />
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    Nationality:<br />
+                    <input style="margin:10px;" type="radio" id="nationality"
+                           name="nationality" value="indian" />Indian
+                    <input style="margin:10px;" type="radio" id="nationality"
+                           name="nationality" value="nri" />NRI
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Contact:
+
+                    <input style="text-align:left; font-weight:bold" name="contact" type="text" id="contact"
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>
+        Invoice Details:
+    </legend>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    Invoice Date :<input style="text-align:left; font-weight:bold" name="invoicedate" type="date" id="invoicedate"
+                                         class="form-control" />
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Product Category :
+                    @Html.DropDownList("Category", new SelectList(Model.Item1, "Value", "Text"),
+                                         new { @class = "form-control" })
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Product:
+                       @Html.DropDownList("Product", new SelectList(Model.Item2, "Value", "Text"),
+                        new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+

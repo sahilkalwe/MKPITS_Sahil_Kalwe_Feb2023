@@ -200,5 +200,10 @@ namespace Fendahl2
             result = CourseRegistration1.saveTableFeeDetails(Convert.ToDouble(textBox2.Text),fp, Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), dateTimePicker1.Value);
                 MessageBox.Show(result);    
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
